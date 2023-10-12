@@ -17,11 +17,11 @@ The InklyReads project is maintained by the following team members:
 - [shahedsuleiman](https://github.com/shahedsuleiman) - Quality Assurance
 - [Loay-dahamsheh](https://github.com/Loay-dahamsheh) 
 - [BasharAlhoushan](https://github.com/BasharAlhoushan) 
-- [Al-Howari95]([https://github.com/johndoe](https://github.com/Al-Howari95))
+- [Al-Howari95](https://github.com/Al-Howari95)
 
 ## Wireframes And Mockup
 
-You can access the initial wireframes of the website's user interface through the following link:
+You can access the initial Wireframes And Mockup of the website's user interface through the following link:
 
 - [Wireframes And Mockup]([https://www.figma.com/files/team/1293940548713197907/InklyReads-Project?fuid=1283776208877744502]
 

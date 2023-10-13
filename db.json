@@ -1,34 +1,94 @@
 {
-  "posts": [
+  "books": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "title": "Brief History of Time",
+      "long_description": "A Brief History of Time is a popular science book on theoretical cosmology, written by English theoretical physicist Stephen Hawking. It was first published in 1988. Hawking wrote the book for readers who have no prior knowledge of physics. The book explores a wide range of topics in cosmology, including the Big Bang, black holes, and the search for a unified theory of physics.",
+      "author": "Stephen Hawking",
+      "year": 1988,
+      "pages": 256,
+      "rating": 4.5,
+      "type": "Science"
     },
     {
       "id": 2,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some 2 comment",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "some 2 comment",
-      "postId": 2
+      "title": "Sapiens: A Brief History of Humankind",
+      "long_description": "Sapiens: A Brief History of Humankind is a book by Yuval Noah Harari, a history professor at the Hebrew University of Jerusalem. The book covers the history of humankind from the Stone Age to the present day. Harari argues that humans are the only species on Earth that has been able to cooperate flexibly in large numbers, which has allowed us to dominate the planet.",
+      "author": "Yuval Noah Harari",
+      "year": 2014,
+      "pages": 443,
+      "rating": 4.5,
+      "type": "History"
     },
     {
       "id": 3,
-      "body": "some 2 comment",
-      "postId": 3
+      "title": "The Undercover Economist Strikes Back",
+      "long_description": "The Undercover Economist Strikes Back is a book by Tim Harford, an economist and journalist. The book covers a wide range of economic topics, including the hidden costs of goods and services, the economics of crime, and the economics of love. Harford uses real-world examples to explain complex economic concepts in a way that is easy to understand.",
+      "author": "Tim Harford",
+      "year": 2011,
+      "pages": 384,
+      "rating": 4.5,
+      "type": "Economic"
+    },
+    {
+      "id": 4,
+      "title": "The Martian",
+      "long_description": "The Martian is a 2011 science fiction novel written by American author Andy Weir. It tells the story of Mark Watney, an American astronaut who is stranded on Mars after his crew is forced to evacuate due to a severe storm. Watney must use his ingenuity and engineering skills to survive on Mars until a rescue mission can be launched.",
+      "author": "Andy Weir",
+      "year": 2011,
+      "pages": 384,
+      "rating": 4.5,
+      "type": "Story"
+    },
+    {
+      "id": 4,
+      "title": "The Theory of Everything: The Origin and Fate of the Universe",
+      "long_description": "The Theory of Everything is a 2004 book by Stephen Hawking, a theoretical physicist and cosmologist. The book is a popular science book that provides an overview of modern cosmology. Hawking covers a wide range of topics in the book, including the Big Bang, black holes, and the search for a unified theory of physics.",
+      "author": "Stephen Hawking",
+      "year": 2004,
+      "pages": 256,
+      "rating": 4.5,
+      "type": "Science"
+    },
+    {
+      "id": 5,
+      "title": "Guns, Germs, and Steel: The Fates of Human Societies",
+      "long_description": "Guns, Germs, and Steel is a 1997 book by Jared Diamond, a professor of geography at UCLA. The book is a popular science book that attempts to explain why the Eurasian peoples came to dominate the world, while other peoples, such as the Native Americans and the Australian Aborigines, did not. Diamond argues that geography played a major role in the development of different civilizations.",
+      "author": "Jared Diamond",
+      "year": 1997,
+      "pages": 480,
+      "rating": 4.5,
+      "type": "History"
+    },
+    {
+      "id": 6,
+      "title": "Freakonomics: A Rogue Economist Explores the Hidden Side of Everything",
+      "long_description": "Freakonomics is a 2005 book by Steven D. Levitt and Stephen J. Dubner. The book is a popular economics book that uses real-world examples to explain complex economic concepts. Levitt and Dubner cover a wide range of topics in the book, including the economics of cheating, the economics of sumo wrestling, and the economics of real estate.",
+      "author": "Steven D. Levitt and Stephen J. Dubner",
+      "year": 2005,
+      "pages": 288,
+      "rating": 4.5,
+      "type": "Economic"
+    },
+    {
+      "id": 7,
+      "title": "The Lord of the Rings",
+      "long_description": "The Lord of the Rings is an epic high fantasy trilogy written by English philologist and University of Oxford professor J. R. R. Tolkien. The story began as a sequel to Tolkien's 1937 fantasy novel The Hobbit, but eventually developed into a much larger work. Written in stages between 1937 and 1949, with much of it being written during World War II, it was originally published in three volumes in 1954 and 1955. It has since been reprinted numerous times and translated into at least 38 languages, becoming one of the best-selling novels ever written.",
+      "author": "J. R. R. Tolkien",
+      "year": 1954,
+      "pages": 1178,
+      "rating": 4.5,
+      "type": "Story"
+    },
+    {
+      "id": 8,
+      "title": "Pride and Prejudice",
+      "long_description": "Pride and Prejudice is a romantic novel written by Jane Austen and first published in 1813. The story follows the main character, Elizabeth Bennet, as she deals with issues of manners, upbringing, morality, education, and marriage in the society of the landed gentry of early 19th-century England. Elizabeth is the second-eldest of five daughters of a country gentleman living near the fictional town of Meryton in Hertfordshire, near London.",
+      "author": "Jane Austen",
+      "year": 1813,
+      "pages": 224,
+      "rating": 4.3,
+      "type": "Story"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

@@ -6,3 +6,11 @@ document.addEventListener("DOMContentLoaded", () => {
     })
     .catch((error) => console.log("there is an error with git"));
 });
+
+let arr = [1, 2, 5, 8];
+
+console.log(
+  arr.filter((el) => {
+    return el <= 2;
+  })
+);

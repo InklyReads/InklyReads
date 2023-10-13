@@ -1,4 +1,4 @@
-const data = "";
+const datatype = "";
 document.addEventListener("DOMContentLoaded", () =>{
     let section = document.querySelector(".books");
     fetch("http://localhost:3000/books")
@@ -14,15 +14,17 @@ document.addEventListener("DOMContentLoaded", () =>{
                     <hr>
                     <p class="information">${description}</p>
                     <div class="control">
-                        <button class="btn">
+                        <a href = "/html/details.html">
+                        <button class="btn" >
                         <span class="buy">View</span>
                         </button>
-                    </div>                
+                        </a>
+                    </div>
                 </div>
                 <div class="product-image">
                     <img src="${data.img}" alt="pic of the book">
                     <div class="info">
-                        <h2>About the book</h2>                
+                        <h2>About the book</h2>
                         <ul>
                             <li><strong>Height: </strong>${data.author}</li>
                             <li><strong>Shade: </strong>${data.year}</li>
@@ -34,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () =>{
             </div>`;
             section.appendChild(book);
             if (data.type == "Science"){
-                
+
             }else if (data.type == "History"){
     
             }else if (data.type == "Economic"){

@@ -2,6 +2,7 @@
   "books": [
     {
         "id": 1,
+        "img" : "/assets/images/Brief History of Time.jpg",
         "title": "Brief History of Time",
         "long_description": "A Brief History of Time is a popular science book on theoretical cosmology, written by English theoretical physicist Stephen Hawking. It was first published in 1988. Hawking wrote the book for readers who have no prior knowledge of physics. The book explores a wide range of topics in cosmology, including the Big Bang, black holes, and the search for a unified theory of physics.",
         "author": "Stephen Hawking",
@@ -12,6 +13,7 @@
     },
     {
         "id": 2,
+        "img" : "/assets/images/The Theory of Everything The Origin and Fate of the Universe.jpg",
         "title": "The Theory of Everything: The Origin and Fate of the Universe",
         "long_description": "The Theory of Everything is a 2004 book by Stephen Hawking, a theoretical physicist and cosmologist. The book is a popular science book that provides an overview of modern cosmology. Hawking covers a wide range of topics in the book, including the Big Bang, black holes, and the search for a unified theory of physics.",
         "author": "Stephen Hawking",

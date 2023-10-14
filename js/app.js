@@ -1,16 +1,32 @@
-document.addEventListener("DOMContentLoaded", () => {
-  fetch("http://localhost:3000/comments")
-    .then((response) => response.json())
-    .then((data) => {
-      console.log(data);
-    })
-    .catch((error) => console.log("there is an error with git"));
+// navbar start
+
+let searchBtn = document.querySelector(".searchBtn");
+let closeBtn = document.querySelector(".closeBtn");
+let searchBox = document.querySelector(".searchBox");
+let nav = document.querySelector("nav");
+let navigation = document.querySelector(".navigation");
+let menuToggle = document.querySelector(".menuToggle");
+
+searchBtn.addEventListener("click", () => {
+  searchBox.classList.add("active");
+  closeBtn.classList.add("active");
+  searchBtn.classList.add("active");
+  menuToggle.classList.add("hide");
 });
 
-let arr = [1, 2, 5, 8];
+closeBtn.addEventListener("click", () => {
+  searchBox.classList.remove("active");
+  closeBtn.classList.remove("active");
+  searchBtn.classList.remove("active");
+  menuToggle.classList.remove("hide");
+  nav.classList.remove("open");
+});
 
-console.log(
-  arr.filter((el) => {
-    return el <= 2;
-  })
-);
+menuToggle.addEventListener("click", () => {
+  nav.classList.toggle("open");
+  searchBox.classList.remove("active");
+  closeBtn.classList.remove("active");
+  searchBtn.classList.remove("active");
+});
+
+// navbar end

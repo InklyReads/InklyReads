@@ -5,7 +5,8 @@ document.addEventListener("DOMContentLoaded", () =>{
     .then(response => response.json())
     .then(data => {
         data.map((data) => {
-            let description = data.long_description.substring(0,200);
+            let description = data.long_description.substring(0,150);
+            description = description + "...";
             let book = document.createElement("div");
             book.innerHTML = `
             <div id="container">	
@@ -14,9 +15,8 @@ document.addEventListener("DOMContentLoaded", () =>{
                     <hr>
                     <p class="information">${description}</p>
                     <div class="control">
-                        <a href = "/html/details.html">
-                        <button class="btn" >
-                        <span class="buy">View</span>
+                        <button class="btn">
+                        <span class="buy" id = "${data.id}";><a href="/html/details.html?id=${data.id}">view</a></span>
                         </button>
                         </a>
                     </div>

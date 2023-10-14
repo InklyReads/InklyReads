@@ -1,0 +1,78 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../css/loginAndRegister.css" />
+  </head>
+  <body>
+    <section id="background">
+      <div class="form-box">
+        <h1>Welcome to InklyReads!</h1>
+        <div class="button-box">
+          <div id="btn"></div>
+          <button type="button" class="toggle-btn" onclick="login()">
+            Log In
+          </button>
+          <button type="button" class="toggle-btn" onclick="register()">
+            Register
+          </button>
+        </div>
+        <form id="login" class="input-group">
+          <input
+            type="text"
+            class="input-field"
+            placeholder="User Email"
+            required
+          />
+          <input
+            type="text"
+            class="input-field"
+            placeholder="Your Password"
+            required
+          />
+          <button type="submit" class="submit-btn class-btn margin-top">Log in</button>
+        </form>
+        <form id="register" class="input-group">
+          <input
+            type="text"
+            class="input-field"
+            placeholder="First Name"
+            required
+          />
+          <input
+            type="text"
+            class="input-field"
+            placeholder="Last Name"
+            required
+          />
+          <input
+            type="email"
+            class="input-field"
+            placeholder="Email"
+            required
+          />
+          <input
+            type="text"
+            class="input-field"
+            placeholder="Password"
+            required
+          />
+          <input
+            type="text"
+            class="input-field"
+            placeholder="Your Address"
+            required
+          />
+          <div>
+            <input type="checkbox" class="check-box" /><span
+              >I agree to the terms & conditions.</span
+            >
+          </div>
+          <button type="submit" class="submit-btn class-btn">Register</button>
+        </form>
+      </div>
+    </section>
+    <script src="../js/loginRegister.js"></script>
+  </body>
+</html>

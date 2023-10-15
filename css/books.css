@@ -14,7 +14,7 @@
 div#container:hover {
     width: 505px;
     height: 355px;
-    box-shadow: 1px 1px 5px #ED553B;
+    /* box-shadow: 1px 1px 5px #ED553B; */
 }
 
 .product-details {
@@ -29,7 +29,7 @@ div#container:hover {
 }
 
 #container .product-details h1 {
-    font-family: 'Bebas Neue', cursive;
+    /* font-family: 'Bebas Neue', cursive; */
     display: inline-block;
     position: relative;
     font-size: 20px;
@@ -166,7 +166,7 @@ div#container:hover {
 .product-image:hover .info{transform: translateX(0);}
 
 .info ul li{transition: 0.3s ease;}
-.info ul li:hover{transform: translateX(50px) scale(1.3);}
+.info ul li:hover{transform: translateX(10px) scale(1);}
 
 .product-image:hover img {transition: all 0.3s ease-out;}
 .product-image:hover img {transform: scale(1.2, 1.2);}

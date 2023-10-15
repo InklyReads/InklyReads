@@ -5,8 +5,16 @@
 	border-radius: 5px;
 	overflow: hidden;
 	/* margin: 5em auto; */
-	height: 375px;
+    height: 350px;
     width: 500px;
+    transition-duration: 0.3s;
+    border-radius: 15px;
+}
+
+div#container:hover {
+    width: 515px;
+    height: 365px;
+    box-shadow: 0 15px 30px 1px #ED553B;
 }
 
 .product-details {
@@ -130,7 +138,7 @@
 	position: relative;
 	overflow: hidden;
 	height: 100%;
-	float: right;
+	/* float: right; */
 	width: 45%;
 	display: inline-block;
 }
@@ -168,9 +176,16 @@ section.books {
     flex-direction: row;
     flex-wrap: wrap;
     row-gap: 75px;
-    padding: 0px;
-    padding-left: 160px;
+    /* padding: 0px; */
+    /* padding-left: 160px; */
     /* column-gap: 29px; */
-    justify-content: space-between;
-    padding-right: 160px;
+    /* justify-content: space-between; */
+    /* padding-right: 160px; */
+    column-gap: 100px;
+    justify-content: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }

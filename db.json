@@ -530,7 +530,7 @@
         },
         {
             "id": 49,
-            "img" : "",
+            "img" : "/assets/images/Beloved.jpg",
             "title": "The Netanyahus",
             "author": "Joshua Cohen",
             "year": 2022,
@@ -542,7 +542,7 @@
           },
       {
         "id": 50,
-        "img" : "",
+        "img" : "/assets/images/Dune.jpg",
         "title": "Tomb of Sand",
         "author": "Geetanjali Shree",
         "translator": "Daisy Rockwell",
@@ -555,7 +555,7 @@
       },
       {
         "id": 51,
-        "img" : "",
+        "img" : "/assets/images/The Hitchhiker's Guide to the Galaxy.jpg",
         "title": "The Rabbit Hutch",
         "author": "Tess Gunty",
         "year": 2022,
@@ -567,7 +567,7 @@
       },
       {
         "id": 52,
-        "img" : "",
+        "img" : "/assets/images/Sapiens A Brief History of Humankind.jpg",
         "title": "All This Could Be Different",
         "author": "Sarah Thankam Mathews",
         "year": 2022,
@@ -579,7 +579,7 @@
       },
       {
         "id": 53,
-        "img" : "",
+        "img" : "/assets/images/The Theory of Everything The Origin and Fate of the Universe.jpg",
         "title": "The Haunting of Hajji Hotak and Other Stories",
         "author": "Jamil Jan Kochai",
         "year": 2022,

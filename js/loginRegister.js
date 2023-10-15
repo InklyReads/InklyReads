@@ -1,15 +1,15 @@
-var x = document.getElementById("login");
-var y = document.getElementById("register");
-var z = document.getElementById("btn");
+var loginForm = document.getElementById("login");
+var registerForm = document.getElementById("register");
+var divMove = document.getElementById("divMove");
 
 function register() {
-  x.style.left = "-400px";
-  y.style.left = "50px";
-  z.style.left = "110px";
+  loginForm.style.left = "-400px";
+  registerForm.style.left = "50px";
+  divMove.style.left = "110px";
 }
 
 function login() {
-  x.style.left = "50px";
-  y.style.left = "450px";
-  z.style.left = "0";
+  loginForm.style.left = "50px";
+  registerForm.style.left = "450px";
+  divMove.style.left = "0";
 }

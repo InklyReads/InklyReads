@@ -15,7 +15,7 @@ fetch("http://localhost:3000/books")
             card.className = "card";
 
             const image = document.createElement("img");
-            image.src = `${book.image}`;
+            image.src = `${book.img}`;
             image.style.width = "296px" ;
             image.style.height = "398px" ;
 
@@ -25,25 +25,25 @@ fetch("http://localhost:3000/books")
             const description = document.createElement("p");
             description.textContent = book.long_description;
 
-            const author = document.createElement("p");
-            author.textContent = "Author: " + book.author;
+            // const author = document.createElement("p");
+            // author.textContent = "Author: " + book.author;
 
-            const year = document.createElement("p");
-            year.textContent = "Year: " + book.year;
+            // const year = document.createElement("p");
+            // year.textContent = "Year: " + book.year;
 
-            const pages = document.createElement("p");
-            pages.textContent = "Pages: " + book.pages;
+            // const pages = document.createElement("p");
+            // pages.textContent = "Pages: " + book.pages;
 
-            const rating = document.createElement("p");
-            rating.textContent = "Rating: " + book.rating;
+            // const rating = document.createElement("p");
+            // rating.textContent = "Rating: " + book.rating;
 
             card.appendChild(image);
             card.appendChild(title);
             card.appendChild(description);
-            card.appendChild(author);
-            card.appendChild(year);
-            card.appendChild(pages);
-            card.appendChild(rating);
+            // card.appendChild(author);
+            // card.appendChild(year);
+            // card.appendChild(pages);
+            // card.appendChild(rating);
 
             bookList.appendChild(card);
         })}
@@ -56,9 +56,6 @@ fetch("http://localhost:3000/books")
     .catch((error) => {
         console.error("Error fetching data: " + error);
     });
-
-
-
 
     fetch("http://localhost:3000/books")
     .then((response) => response.json())
@@ -79,7 +76,7 @@ fetch("http://localhost:3000/books")
                 card.className = "card";
     
                 const image = document.createElement("img");
-                image.src = `${book.image}`;
+                image.src = `${book.img}`;
                 image.style.width = "296px" ;
                 image.style.height = "398px" ;
     
@@ -89,25 +86,25 @@ fetch("http://localhost:3000/books")
                 const description = document.createElement("p");
                 description.textContent = book.long_description;
     
-                const author = document.createElement("p");
-                author.textContent = "Author: " + book.author;
+                // const author = document.createElement("p");
+                // author.textContent = "Author: " + book.author;
     
-                const year = document.createElement("p");
-                year.textContent = "Year: " + book.year;
+                // const year = document.createElement("p");
+                // year.textContent = "Year: " + book.year;
     
-                const pages = document.createElement("p");
-                pages.textContent = "Pages: " + book.pages;
+                // const pages = document.createElement("p");
+                // pages.textContent = "Pages: " + book.pages;
     
-                const rating = document.createElement("p");
-                rating.textContent = "Rating: " + book.rating;
+                // const rating = document.createElement("p");
+                // rating.textContent = "Rating: " + book.rating;
     
                 card.appendChild(image);
                 card.appendChild(title);
                 card.appendChild(description);
-                card.appendChild(author);
-                card.appendChild(year);
-                card.appendChild(pages);
-                card.appendChild(rating);
+                // card.appendChild(author);
+                // card.appendChild(year);
+                // card.appendChild(pages);
+                // card.appendChild(rating);
     
                 bookList.appendChild(card);
             })}
@@ -120,9 +117,6 @@ fetch("http://localhost:3000/books")
         .catch((error) => {
             console.error("Error fetching data: " + error);
         });
-
-
-
 
 
 
@@ -144,7 +138,7 @@ fetch("http://localhost:3000/books")
                 card.className = "card";
     
                 const image = document.createElement("img");
-                image.src = `${book.image}`;
+                image.src = `${book.img}`;
                 image.style.width = "296px" ;
                 image.style.height = "398px" ;
     
@@ -154,25 +148,25 @@ fetch("http://localhost:3000/books")
                 const description = document.createElement("p");
                 description.textContent = book.long_description;
     
-                const author = document.createElement("p");
-                author.textContent = "Author: " + book.author;
+                // const author = document.createElement("p");
+                // author.textContent = "Author: " + book.author;
     
-                const year = document.createElement("p");
-                year.textContent = "Year: " + book.year;
+                // const year = document.createElement("p");
+                // year.textContent = "Year: " + book.year;
     
-                const pages = document.createElement("p");
-                pages.textContent = "Pages: " + book.pages;
+                // const pages = document.createElement("p");
+                // pages.textContent = "Pages: " + book.pages;
     
-                const rating = document.createElement("p");
-                rating.textContent = "Rating: " + book.rating;
+                // const rating = document.createElement("p");
+                // rating.textContent = "Rating: " + book.rating;
     
                 card.appendChild(image);
                 card.appendChild(title);
                 card.appendChild(description);
-                card.appendChild(author);
-                card.appendChild(year);
-                card.appendChild(pages);
-                card.appendChild(rating);
+                // card.appendChild(author);
+                // card.appendChild(year);
+                // card.appendChild(pages);
+                // card.appendChild(rating);
     
                 bookList.appendChild(card);
             })}
@@ -185,8 +179,6 @@ fetch("http://localhost:3000/books")
         .catch((error) => {
             console.error("Error fetching data: " + error);
         });
-
-
 
 
     fetch("http://localhost:3000/books")
@@ -209,9 +201,9 @@ fetch("http://localhost:3000/books")
                 card.className = "card";
     
                 const image = document.createElement("img");
-                image.src = `${book.image}`;
-                image.style.width = "296px" ;
-                image.style.height = "398px" ;
+                image.src = `${book.img}`;
+                image.style.width = "296px";
+                image.style.height = "398px";
     
                 const title = document.createElement("h2");
                 title.textContent = book.title;
@@ -219,25 +211,25 @@ fetch("http://localhost:3000/books")
                 const description = document.createElement("p");
                 description.textContent = book.long_description;
     
-                const author = document.createElement("p");
-                author.textContent = "Author: " + book.author;
+                // const author = document.createElement("p");
+                // author.textContent = "Author: " + book.author;
     
-                const year = document.createElement("p");
-                year.textContent = "Year: " + book.year;
+                // const year = document.createElement("p");
+                // year.textContent = "Year: " + book.year;
     
-                const pages = document.createElement("p");
-                pages.textContent = "Pages: " + book.pages;
+                // const pages = document.createElement("p");
+                // pages.textContent = "Pages: " + book.pages;
     
-                const rating = document.createElement("p");
-                rating.textContent = "Rating: " + book.rating;
+                // const rating = document.createElement("p");
+                // rating.textContent = "Rating: " + book.rating;
     
                 card.appendChild(image);
                 card.appendChild(title);
                 card.appendChild(description);
-                card.appendChild(author);
-                card.appendChild(year);
-                card.appendChild(pages);
-                card.appendChild(rating);
+                // card.appendChild(author);
+                // card.appendChild(year);
+                // card.appendChild(pages);
+                // card.appendChild(rating);
     
                 bookList.appendChild(card);
             })}

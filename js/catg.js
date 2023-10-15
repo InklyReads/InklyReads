@@ -1,7 +1,7 @@
 class Books {
-    constructor (id,image,title,long_description,author ,year,pages,rating,type) {
+    constructor (id,img,title,long_description,author ,year,pages,rating,type) {
         this.id = id;
-        this.image = image;
+        this.img = img;
         this.title = title;
         this.long_description = long_description;
         this.author = author;
@@ -17,9 +17,7 @@ class Books {
 var record1 = document.getElementById("button");
 
 
-
-
-record1.addEventListener("click",(Image) => {
+record1.addEventListener("click",(img) => {
     
 
     window.location.href = "books2.html"

@@ -110,7 +110,17 @@
       "rating": 4.5,
       "type": "Science"
     },
-    
+    {
+      "id": 11,
+      "img": "/assets/images/The Wealth of Nations.jpg",
+      "title": "The Wealth of Nations",
+      "long_description": "The Wealth of Nations is a 1776 book by Adam Smith, a Scottish economist and philosopher. The book is considered to be one of the most important works in the history of economics. Smith argues in the book that the division of labor and free markets are essential for economic growth. The book is a must-read for anyone who wants to understand how the economy works.",
+      "author": "Adam Smith",
+      "year": 1776,
+      "pages": 911,
+      "rating": 4.5,
+      "type": "Economic"
+    },
 
     {
       "id": 12,

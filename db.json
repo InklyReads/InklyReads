@@ -475,7 +475,9 @@
     },
     {
       "id": 44,
+
       "img": "/assets/images/The Elegant Universe.jpg",
+
       "title": "The Invisible Life of Addie LaRue",
       "author": "V.E. Schwab",
       "year": 2020,
@@ -486,7 +488,9 @@
     },
     {
       "id": 45,
+
       "img": "/assets/images/The Elegant Universe.jpg",
+
       "title": "The House in the Cerulean Sea",
       "author": "T.J. Klune",
       "year": 2020,
@@ -497,7 +501,9 @@
     },
     {
       "id": 46,
+
       "img": "/assets/images/The Elegant Universe.jpg",
+
       "title": "A Psalm for the Wild-Built",
       "author": "Becky Chambers",
       "year": 2020,
@@ -508,7 +514,9 @@
     },
     {
       "id": 47,
+
       "img": "/assets/images/The Elegant Universe.jpg",
+
       "title": "Mexican Gothic",
       "author": "Silvia Moreno-Garcia",
       "year": 2020,
@@ -519,7 +527,9 @@
     },
     {
       "id": 48,
+
       "img": "/assets/images/The Elegant Universe.jpg",
+
       "title": "The Midnight Library",
       "author": "Matt Haig",
       "year": 2020,
@@ -530,7 +540,9 @@
     },
     {
       "id": 49,
+
       "img": "/assets/images/The Elegant Universe.jpg",
+
       "title": "The Netanyahus",
       "author": "Joshua Cohen",
       "year": 2022,
@@ -542,7 +554,9 @@
     },
     {
       "id": 50,
+
       "img": "/assets/images/The Elegant Universe.jpg",
+
       "title": "Tomb of Sand",
       "author": "Geetanjali Shree",
       "translator": "Daisy Rockwell",
@@ -555,7 +569,9 @@
     },
     {
       "id": 51,
+
       "img": "/assets/images/The Elegant Universe.jpg",
+
       "title": "The Rabbit Hutch",
       "author": "Tess Gunty",
       "year": 2022,
@@ -567,7 +583,9 @@
     },
     {
       "id": 52,
+
       "img": "/assets/images/The Elegant Universe.jpg",
+
       "title": "All This Could Be Different",
       "author": "Sarah Thankam Mathews",
       "year": 2022,
@@ -579,7 +597,9 @@
     },
     {
       "id": 53,
+
       "img": "/assets/images/The Elegant Universe.jpg",
+
       "title": "The Haunting of Hajji Hotak and Other Stories",
       "author": "Jamil Jan Kochai",
       "year": 2022,
@@ -590,16 +610,7 @@
       "long_description": "The Haunting of Hajji Hotak and Other Stories is a collection of short stories that explore the lives of Afghans living in exile. The stories are both heartbreaking and hopeful, and they offer a glimpse into the challenges and triumphs of those who have been forced to leave their home country. The Haunting of Hajji Hotak and Other Stories is a must-read for anyone interested in Afghan literature and the experiences of refugees."
     }
   ],
-  "users": [
-    {
-      "id": 1,
-      "first-name": "mothana almajali",
-      "last-name": "almajali",
-      "email": "mothana@gmail.com",
-      "password": "13245",
-      "addres": "zarqa"
-    }
-  ],
+  "users": [],
   "comments": [
     {
       "id": 1,
@@ -610,8 +621,14 @@
     },
     {
       "id": 2,
-      "booknumber": "13",
-      "comment": "klrwhgfukgerkugve\n"
+
+      "comment": "some 2 comment",
+      "commentId": 1
+    },
+    {
+      "id": 3,
+
+      "commentId": 1
     },
     {
       "id": 4,

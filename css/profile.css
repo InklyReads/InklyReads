@@ -270,6 +270,7 @@ body{
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   border-radius: 4px;
+  width: 600px;
 }
 .form-label {
   font-weight: 600;
@@ -387,7 +388,9 @@ button {
         text-decoration: none;
         padding: 5px 5px;
         font-size: 1em;
-        transition: color 0.25s,
+        transition: color 0.25s;
+        
+      
         /* border-color : 0.25s,
         box-shadow: 0.25s; */
         /* transform : 0.25s; */
@@ -400,5 +403,21 @@ button {
         box-shadow:0 0,5em 0.5em -0.4em #fa9280;
         transform: translate Y(-0.25em);
         cursor: pointer;
+      }
+
+      .my-page{
+        display: flex;
+     margin-top: 200px;
+      }
+      .btn2{
+        margin-left: 10px;
+        margin-bottom: 50px;
+         background: none;
+         color: #ffa99a;
+         border:1px solid;
+         text-decoration: none;
+         padding: 5px 5px;
+         font-size: 1em;
+         transition: color 0.25s;
       }
   

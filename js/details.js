@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", () =>{
 
     let urlParams = new URLSearchParams(window.location.search);
     let bookId = urlParams.get('id');
+    console.log(bookId);
 
     fetch("http://localhost:3000/books")
     .then(response => response.json())

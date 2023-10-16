@@ -123,6 +123,7 @@ function addElement(appendin, value) {
   }
 
 function sendme(id){
+    // console.log(id);
     window.location.href = `/html/details.html?id=${id}`;
 }
 

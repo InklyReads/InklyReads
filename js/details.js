@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", () =>{
+    
 
     let urlParams = new URLSearchParams(window.location.search);
     let bookId = urlParams.get('id');
@@ -7,9 +8,9 @@ document.addEventListener("DOMContentLoaded", () =>{
     fetch("http://localhost:3000/books")
     .then(response => response.json())
     .then(data => {
-        let thebook = data[bookId-1];
+        let thebook = data[bookId - 1];
         console.log(thebook);
-        let container = document.querySelector("#product");;
+        let container = document.querySelector("#product");
         // div.classList = "details-container";
         container.innerHTML = `
         <div class="product_images"><img src="${thebook.img}" alt=""></div>
@@ -37,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () =>{
             <button type="button" class="btn btn-danger">Add to wishlist</button>
         </div>
     </div>`;
-                container.appendChild(container);
+                // container.appendChild(container);
     });
 
     let button = document.querySelector("#comm-sub");
@@ -67,6 +68,8 @@ document.addEventListener("DOMContentLoaded", () =>{
                     id : "",
                     booknumber : `${bookId}`,
                     comment : `${comment}`,
+                    useremail: "from--section",
+                    username: "fromsession"
                 }),
         })
         
@@ -92,6 +95,8 @@ document.addEventListener("DOMContentLoaded", () =>{
                 <span class="be-comment-time"><i class="fa fa-clock-o"></i></span>
     
             <p class="be-comment-text">${d.comment}</p>
+            <button class = "delete" onclick = deletecomment(${d.id})>delete</button>
+            <button class = "update" onclick = editcomment(${d.id})>edit</button>
             </div>
             `;
         cont.prepend(comdiv);
@@ -100,3 +105,17 @@ document.addEventListener("DOMContentLoaded", () =>{
     // Use the book ID to fetch book details (you can replace this with your logic)
     // console.log(bookId);
 });
+
+function deletecomment(c){
+    console.log(c);
+        fetch(`http://localhost:3000/comments/${c}`, {
+        method: 'DELETE',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+      })
+      console.log(c);
+}
+function editcomment(c){
+    
+}

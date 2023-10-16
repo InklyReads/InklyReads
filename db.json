@@ -100,16 +100,49 @@
       "type": "Science"
     },
     {
-      "id": 10,
-      "img": "/assets/images/A Short History of Nearly Everything.jpg",
-      "title": "A Short History of Nearly Everything",
-      "long_description": "A Short History of Nearly Everything is a 2003 book by Bill Bryson, a British-American science writer. The book is a popular science book that covers a wide range of topics, including the Big Bang, the solar system, the Earth, life, and the human body. Bryson writes in a clear and engaging style, and he does a great job of explaining complex scientific concepts in a way that is easy to understand for even the most non-technical reader. The book is a must-read for anyone who wants to learn more about the world we live in.",
-      "author": "Bill Bryson",
-      "year": 2003,
-      "pages": 544,
-      "rating": 4.5,
-      "type": "Science"
-    },
+        "id": 26,
+        "img": "/assets/images/The Hitchhiker's Guide to the Galaxy.jpg",
+        "title": "The Hitchhiker's Guide to the Galaxy",
+        "long_description": "The Hitchhiker's Guide to the Galaxy is a comic science fiction comedy series created by Douglas Adams. Originally a radio comedy broadcast on BBC Radio 4 in 1978, it was later adapted to other formats, including stage shows, novels, comic books, a 1981 TV series, a 1984 computer game, and 2005 feature film. The series follows the adventures of Arthur Dent, a hapless Englishman who is rescued from the destruction of the Earth by his friend Ford Prefect, a human researcher for the titular Hitchhiker's Guide to the Galaxy, a pan-galactic encyclopaedia and travel guide for hitchhikers. The Hitchhiker's Guide to the Galaxy has been praised for its humour, originality, and philosophical insights. It has become a cult classic and has influenced many other works of science fiction.",
+        "author": "Douglas Adams",
+        "year": 1979,
+        "pages": 224,
+        "rating": 4.5,
+        "type": "Science Fiction"
+      },
+      {
+        "id": 27,
+        "img": "/assets/images/Sapiens A Brief History of Humankind.jpg",
+        "title": "Sapiens: A Brief History of Humankind",
+        "long_description": "Sapiens: A Brief History of Humankind is a 2011 book by Yuval Noah Harari, a history professor at the Hebrew University of Jerusalem. The book tells the story of humankind from the Stone Age to the present day. Harari argues in the book that humans are the only species on Earth that has been able to cooperate flexibly in large numbers, which has allowed us to dominate the planet. The book is a must-read for anyone who wants to understand the history of humankind and how we came to be where we are today.",
+        "author": "Yuval Noah Harari",
+        "year": 2011,
+        "pages": 443,
+        "rating": 4.5,
+        "type": "History"
+      },
+      {
+        "id": 28,
+        "img": "change",
+        "title": "change",
+        "long_description": "Thinking, Fast and Slow is a 2011 book by Israeli-American psychologist and Nobel laureate Daniel Kahneman. It explores the two systems of thought that drive human behavior: System 1, which is fast, intuitive, and emotional, and System 2, which is slow, deliberative, and logical. Kahneman argues that System 1 is responsible for most of our everyday decisions, while System 2 is only engaged when we need to solve complex problems or make important choices. The book has been praised for its insights into human psychology and its clear and engaging writing style. It has become a bestseller and has been translated into over 40 languages.",
+        "author": "Daniel Kahneman",
+        "year": 2011,
+        "pages": 512,
+        "rating": 4.5,
+        "type": "Economics"
+      },
+      {
+        "id": 29,
+        "img": "/assets/images/One Hundred Years of Solitude.jpg",
+        "title": "One Hundred Years of Solitude",
+        "long_description": "One Hundred Years of Solitude is a 1967 novel by the Colombian author Gabriel García Márquez. It tells the story of the Buendía family over the course of a century. The novel is set in the fictional town of Macondo, which is isolated from the rest of the world. The Buendías experience a variety of magical and surreal events over the course of the novel. One Hundred Years of Solitude is considered to be one of the greatest novels of the 20th century. It has been praised for its magical realism, its complex characters, and its beautiful prose. The novel has won numerous awards, including the Nobel Prize in Literature in 1982.",
+        "author": "Gabriel García Márquez",
+        "year": 1967,
+        "pages": 417,
+        "rating": 4.5,
+        "type": "Fiction"
+      },
     {
 
       "id": 11,
@@ -592,6 +625,7 @@
       "long_description": "The Haunting of Hajji Hotak and Other Stories is a collection of short stories that explore the lives of Afghans living in exile. The stories are both heartbreaking and hopeful, and they offer a glimpse into the challenges and triumphs of those who have been forced to leave their home country. The Haunting of Hajji Hotak and Other Stories is a must-read for anyone interested in Afghan literature and the experiences of refugees."
     }
   ],
+
   "users": [
     {
       "id": 1,
@@ -606,67 +640,29 @@
     {
       "id": 1,
       "booknumber": "1",
-      "comment": "mycomment"
+      "comment": "mycomment",
+      "userwmail": "mothana@gmail.com",
+      "username": "mothana"
     },
     {
       "id": 2,
-      "booknumber": "2",
-      "comment": "lwkenflkjbsdv"
+      "booknumber": "13",
+      "comment": "klrwhgfukgerkugve\n"
     },
     {
       "id": 3,
-      "booknumber": "2",
-      "comment": "gftghtrhtrdh"
+      "booknumber": "6",
+      "comment": "kugkugkug"
     },
     {
       "id": 4,
-      "booknumber": "15",
-      "comment": "dsadasdsa"
+      "booknumber": "51",
+      "comment": "dflkbnldfb\n"
     },
     {
       "id": 5,
-      "booknumber": "15",
-      "comment": ""
-    },
-    {
-      "id": 6,
-      "booknumber": "15",
-      "comment": ""
-    },
-    {
-      "id": 7,
-      "booknumber": "15",
-      "comment": "sasasas"
-    },
-    {
-      "id": 8,
-      "booknumber": "15",
-      "comment": "saasas"
-    },
-    {
-      "id": 9,
-      "booknumber": "15",
-      "comment": "sasasasasas"
-    },
-    {
-      "id": 10,
-      "booknumber": "15",
-      "comment": "sadsadasdsad"
-    },
-    {
-      "id": 11,
-      "booknumber": "15",
-      "comment": "dsadasdsadas"
-    },
-    {
-      "id": 12,
-      "booknumber": "12",
-      "comment": "sadsadsad"
-    },
-    {
-      "id": 13,
-      "booknumber": "12",
-      "comment": "asdasdsadsadsad"
+      "booknumber": "49",
+      "comment": "llllllll"
     }
   ],
   "profile": {

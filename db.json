@@ -475,7 +475,11 @@
     },
     {
       "id": 44,
+<<<<<<< HEAD
       "img": "",
+=======
+      "img": "/assets/images/The Elegant Universe.jpg",
+>>>>>>> 0f2c0de1c667c02d4ef0d883a0c8372449e21b0f
       "title": "The Invisible Life of Addie LaRue",
       "author": "V.E. Schwab",
       "year": 2020,
@@ -486,7 +490,11 @@
     },
     {
       "id": 45,
+<<<<<<< HEAD
       "img": "",
+=======
+      "img": "/assets/images/The Elegant Universe.jpg",
+>>>>>>> 0f2c0de1c667c02d4ef0d883a0c8372449e21b0f
       "title": "The House in the Cerulean Sea",
       "author": "T.J. Klune",
       "year": 2020,
@@ -497,7 +505,11 @@
     },
     {
       "id": 46,
+<<<<<<< HEAD
       "img": "",
+=======
+      "img": "/assets/images/The Elegant Universe.jpg",
+>>>>>>> 0f2c0de1c667c02d4ef0d883a0c8372449e21b0f
       "title": "A Psalm for the Wild-Built",
       "author": "Becky Chambers",
       "year": 2020,
@@ -508,7 +520,11 @@
     },
     {
       "id": 47,
+<<<<<<< HEAD
       "img": "",
+=======
+      "img": "/assets/images/The Elegant Universe.jpg",
+>>>>>>> 0f2c0de1c667c02d4ef0d883a0c8372449e21b0f
       "title": "Mexican Gothic",
       "author": "Silvia Moreno-Garcia",
       "year": 2020,
@@ -519,7 +535,11 @@
     },
     {
       "id": 48,
+<<<<<<< HEAD
       "img": "",
+=======
+      "img": "/assets/images/The Elegant Universe.jpg",
+>>>>>>> 0f2c0de1c667c02d4ef0d883a0c8372449e21b0f
       "title": "The Midnight Library",
       "author": "Matt Haig",
       "year": 2020,
@@ -530,7 +550,11 @@
     },
     {
       "id": 49,
+<<<<<<< HEAD
       "img": "",
+=======
+      "img": "/assets/images/The Elegant Universe.jpg",
+>>>>>>> 0f2c0de1c667c02d4ef0d883a0c8372449e21b0f
       "title": "The Netanyahus",
       "author": "Joshua Cohen",
       "year": 2022,
@@ -542,7 +566,11 @@
     },
     {
       "id": 50,
+<<<<<<< HEAD
       "img": "",
+=======
+      "img": "/assets/images/The Elegant Universe.jpg",
+>>>>>>> 0f2c0de1c667c02d4ef0d883a0c8372449e21b0f
       "title": "Tomb of Sand",
       "author": "Geetanjali Shree",
       "translator": "Daisy Rockwell",
@@ -555,7 +583,11 @@
     },
     {
       "id": 51,
+<<<<<<< HEAD
       "img": "",
+=======
+      "img": "/assets/images/The Elegant Universe.jpg",
+>>>>>>> 0f2c0de1c667c02d4ef0d883a0c8372449e21b0f
       "title": "The Rabbit Hutch",
       "author": "Tess Gunty",
       "year": 2022,
@@ -567,7 +599,11 @@
     },
     {
       "id": 52,
+<<<<<<< HEAD
       "img": "",
+=======
+      "img": "/assets/images/The Elegant Universe.jpg",
+>>>>>>> 0f2c0de1c667c02d4ef0d883a0c8372449e21b0f
       "title": "All This Could Be Different",
       "author": "Sarah Thankam Mathews",
       "year": 2022,
@@ -579,7 +615,11 @@
     },
     {
       "id": 53,
+<<<<<<< HEAD
       "img": "",
+=======
+      "img": "/assets/images/The Elegant Universe.jpg",
+>>>>>>> 0f2c0de1c667c02d4ef0d883a0c8372449e21b0f
       "title": "The Haunting of Hajji Hotak and Other Stories",
       "author": "Jamil Jan Kochai",
       "year": 2022,
@@ -592,6 +632,7 @@
   ],
   "users": [
     {
+<<<<<<< HEAD
       "firstName": "ayoub",
       "lastName": "Husein",
       "userName": "ayoub Husein",
@@ -690,16 +731,27 @@
       "address": "Zarqa",
       "agree": "on",
       "id": 10
+=======
+      "id": 1,
+      "first-name": "mothana almajali",
+      "last-name": "almajali",
+      "email": "mothana@gmail.com",
+      "password": "13245",
+      "addres": "zarqa"
+>>>>>>> 0f2c0de1c667c02d4ef0d883a0c8372449e21b0f
     }
   ],
   "comments": [
     {
       "id": 1,
-      "comment": "some 2 comment",
-      "commentId": 1
+      "booknumber": "1",
+      "comment": "mycomment",
+      "useremail": "mothana@gmail.com",
+      "username": "mothana"
     },
     {
       "id": 2,
+<<<<<<< HEAD
       "comment": "some 2 comment",
       "commentId": 1
     },
@@ -707,6 +759,45 @@
       "id": 3,
       "comment": "some 2 comment",
       "commentId": 1
+=======
+      "booknumber": "13",
+      "comment": "klrwhgfukgerkugve\n"
+    },
+    {
+      "id": 3,
+      "booknumber": "6",
+      "comment": "kugkugkug"
+    },
+    {
+      "id": 4,
+      "booknumber": "51",
+      "comment": "dflkbnldfb\n"
+    },
+    {
+      "id": 5,
+      "booknumber": "49",
+      "comment": "llllllll"
+    },
+    {
+      "id": 6,
+      "booknumber": "46",
+      "comment": "sdgsgsdgfd"
+    },
+    {
+      "id": 7,
+      "booknumber": "45",
+      "comment": "dfbdfb"
+    },
+    {
+      "id": 8,
+      "booknumber": "45",
+      "comment": "sfdbsdvb"
+    },
+    {
+      "id": 10,
+      "booknumber": "48",
+      "comment": ""
+>>>>>>> 0f2c0de1c667c02d4ef0d883a0c8372449e21b0f
     }
   ],
   "profile": {

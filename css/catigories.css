@@ -293,7 +293,7 @@ h1 {
 
 
 
-    @media only screen and  (min-width: 769px) and (max-width: 1279px) {
+    /* @media only screen and  (min-width: 769px) and (max-width: 1279px) {
 
    .bn632-hover {
     width: 90px;
@@ -304,10 +304,12 @@ h1 {
   }
        
         
-         }
+         } */
 
-       h1 {
+       /* h1 {
         font-size: 25px;
-       }
+       } */
+
+       
       
       

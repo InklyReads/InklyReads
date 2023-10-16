@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login & Register</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="../css/loginAndRegister.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="../index.html" class="name">
+          <i class="fa-solid fa-book"></i>
+          InklyReads
+        </a>
+        <div class="group">
+          <ul class="navigation">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">catigories</a></li>
+          </ul>
+          <div class="search">
+            <span class="icon">
+              <i class="fa-solid fa-magnifying-glass searchBtn"></i>
+              <i class="fa-solid fa-x fa-2xs closeBtn"></i>
+            </span>
+          </div>
+        </div>
+        <i class="fa-solid fa-bars menuToggle"></i>
+        <a href="#" class="person"
+          ><i class="fa-regular fa-user"></i
+        ></a>
+        <div class="searchBox">
+          <input type="text" placeholder="Search here . . ." />
+        </div>
+      </nav>
+    </header>
+    <section id="background">
+      <div class="form-box">
+        <h1>Welcome to InklyReads!</h1>
+        <div class="button-box">
+          <div id="divMove"></div>
+          <button type="button" class="toggle-btn" onclick="login()">
+            Log In
+          </button>
+          <button type="button" class="toggle-btn" onclick="register()">
+            Register
+          </button>
+        </div>
+        <form id="login" class="input-group">
+          <input
+            type="text"
+            class="input-field"
+            placeholder="User Email"
+            required
+          />
+          <input
+            type="text"
+            class="input-field"
+            placeholder="Your Password"
+            required
+          />
+          <button type="submit" class="submit-btn class-btn margin-top">
+            Log in
+          </button>
+        </form>
+        <form id="register" class="input-group">
+          <input
+            type="text"
+            class="input-field"
+            placeholder="First Name"
+            required
+          />
+          <input
+            type="text"
+            class="input-field"
+            placeholder="Last Name"
+            required
+          />
+          <input
+            type="email"
+            class="input-field"
+            placeholder="Email"
+            required
+          />
+          <input
+            type="text"
+            class="input-field"
+            placeholder="Password"
+            required
+          />
+          <input
+            type="text"
+            class="input-field"
+            placeholder="Your Address"
+            required
+          />
+          <div>
+            <input type="checkbox" class="check-box" /><span
+              >I agree to the terms & conditions.</span
+            >
+          </div>
+          <button type="submit" class="submit-btn class-btn">Register</button>
+        </form>
+      </div>
+    </section>
+    <script src="../js/loginRegister.js"></script>
+    <script src="../js/app.js"></script>
+  </body>
+</html>

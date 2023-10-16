@@ -1,3 +1,6 @@
+ 
+ //catigories section start
+
 class Books {
     constructor (id,img,title,long_description,author ,year,pages,rating,type) {
         this.id = id;
@@ -23,6 +26,10 @@ record1.addEventListener("click",(img) => {
     window.location.href = "books2.html"
 
 });
+
+ //catigories section end
+
+
 
 
 // let View = document.getElementById("button");

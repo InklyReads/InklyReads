@@ -1,5 +1,4 @@
 // navbar start
-
 let searchBtn = document.querySelector(".searchBtn");
 let closeBtn = document.querySelector(".closeBtn");
 let searchBox = document.querySelector(".searchBox");
@@ -28,5 +27,26 @@ menuToggle.addEventListener("click", () => {
   closeBtn.classList.remove("active");
   searchBtn.classList.remove("active");
 });
-
 // navbar end
+
+// saerch start
+let searchForm = document.getElementById("searchForm");
+searchForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+  let searchInput = document.querySelector("input[name = search]").value;
+  fetch("http://localhost:3000/books")
+    .then((response) => {
+      return response.json();
+    })
+    .then((data) => {
+      data.filter((book) => {
+        console.log(book.title === searchInput ? book.title : "");
+      });
+    });
+});
+// saerch End
+
+
+
+
+

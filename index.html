@@ -24,7 +24,6 @@
       </a>
       <div class="group">
         <ul class="navigation">
-          <!-- <li><a href="#">Home</a></li> -->
           <li><a href="#">About</a></li>
           <li><a href="#">Contact</a></li>
           <li><a href="#">catigories</a></li>
@@ -37,13 +36,54 @@
         </div>
       </div>
       <i class="fa-solid fa-bars menuToggle"></i>
-      <a href="html/loginRegister.html" class="person"
-        ><i class="fa-regular fa-user"></i
+      <a href="html/loginRegister.html" class="person">
+        <i class="fa-regular fa-user"></i
       ></a>
+      <form class="logoutIcon" id="signoutForm">
+        <button type="submit" id="signoutButton">
+          <i class="fa-solid fa-up-right-from-square"></i>
+        </button>
+      </form>
       <div class="searchBox">
-        <input type="text" placeholder="Search here . . ." />
+        <form id="searchForm">
+          <input
+            id="search"
+            name="search"
+            type="text"
+            placeholder="Search here . . ."
+          />
+        </form>
       </div>
     </nav>
+    <h2 id="msg"></h2>
+    <h2 id="greet"></h2>
     <script src="js/app.js"></script>
+    <script>
+      let UserCredentials = JSON.parse(
+        sessionStorage.getItem("user-credentials")
+      );
+      let UserInfo = JSON.parse(sessionStorage.getItem("user-info"));
+
+      let MsgHead = document.getElementById("msg");
+      let GreetHead = document.getElementById("greet");
+      let SignoutButton = document.getElementById("signoutButton");
+
+      let Signout = () => {
+        sessionStorage.removeItem("user-credentials");
+        sessionStorage.removeItem("user-info");
+        window.location.href = "html/loginRegister.html";
+      };
+
+      let CheckCredentials = () => {
+        if (!sessionStorage.getItem("user-credentials")) {
+          window.location.href = "html/loginRegister.html";
+        } else {
+          MsgHead.innerHTML = `user with email "${UserCredentials.email}"`;
+          GreetHead.innerHTML = `Welcome ${UserInfo.firstName} ${UserInfo.lastName}`;
+        }
+      };
+      window.addEventListener("load", CheckCredentials);
+      SignoutButton.addEventListener("click", Signout);
+    </script>
   </body>
 </html>

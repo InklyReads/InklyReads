@@ -1,13 +1,13 @@
 const datatype = "";
-document.addEventListener("DOMContentLoaded", () =>{
-    let section = document.querySelector(".books");
-    fetch("http://localhost:3000/books")
-    .then(response => response.json())
-    .then(data => {
-        data.map((data) => {
-            let description = data.long_description.substring(0,200);
-            let book = document.createElement("div");
-            book.innerHTML = `
+document.addEventListener("DOMContentLoaded", () => {
+  let section = document.querySelector(".books");
+  fetch("http://localhost:3000/books")
+    .then((response) => response.json())
+    .then((data) => {
+      data.map((data) => {
+        let description = data.long_description.substring(0, 200);
+        let book = document.createElement("div");
+        book.innerHTML = `
             <div id="container">	
                 <div class="product-details">
                     <h1>${data.title}</h1>
@@ -34,17 +34,13 @@ document.addEventListener("DOMContentLoaded", () =>{
                     </div>
                 </div>
             </div>`;
-            section.appendChild(book);
-            if (data.type == "Science"){
-
-            }else if (data.type == "History"){
-    
-            }else if (data.type == "Economic"){
-    
-            }else if (data.type == "Story"){
-    
-            }
-        })
+        section.appendChild(book);
+        if (data.type == "Science") {
+        } else if (data.type == "History") {
+        } else if (data.type == "Economic") {
+        } else if (data.type == "Story") {
+        }
+      });
     })
-    .catch(error => console.log("there is an error in fetch the books.js"))
+    .catch((error) => console.log("there is an error in fetch the books.js"));
 });

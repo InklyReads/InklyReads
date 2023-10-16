@@ -304,10 +304,31 @@ h1 {
           height: 50vw;
            /* Adjust the width for smaller screens */
 
+<<<<<<< HEAD
+    /* @media only screen and  (min-width: 769px) and (max-width: 1279px) {
+
+   .bn632-hover {
+    width: 90px;
+    font-size: 10px;
+    font-weight: 600;
+    height: 30px;
+   
+  }
+       
+        
+         } */
+
+       /* h1 {
+        font-size: 25px;
+       } */
+
+       
+=======
         }
       }
 
       /* catigories end*/
 
+>>>>>>> cf6ba5687d0da90f0e8df7b74b9883d9baadc7f3
       
       

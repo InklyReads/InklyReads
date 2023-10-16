@@ -475,11 +475,9 @@
     },
     {
       "id": 44,
-<<<<<<< HEAD
-      "img": "",
-=======
+
       "img": "/assets/images/The Elegant Universe.jpg",
->>>>>>> 0f2c0de1c667c02d4ef0d883a0c8372449e21b0f
+
       "title": "The Invisible Life of Addie LaRue",
       "author": "V.E. Schwab",
       "year": 2020,
@@ -490,11 +488,9 @@
     },
     {
       "id": 45,
-<<<<<<< HEAD
-      "img": "",
-=======
+
       "img": "/assets/images/The Elegant Universe.jpg",
->>>>>>> 0f2c0de1c667c02d4ef0d883a0c8372449e21b0f
+
       "title": "The House in the Cerulean Sea",
       "author": "T.J. Klune",
       "year": 2020,
@@ -505,11 +501,9 @@
     },
     {
       "id": 46,
-<<<<<<< HEAD
-      "img": "",
-=======
+
       "img": "/assets/images/The Elegant Universe.jpg",
->>>>>>> 0f2c0de1c667c02d4ef0d883a0c8372449e21b0f
+
       "title": "A Psalm for the Wild-Built",
       "author": "Becky Chambers",
       "year": 2020,
@@ -520,11 +514,9 @@
     },
     {
       "id": 47,
-<<<<<<< HEAD
-      "img": "",
-=======
+
       "img": "/assets/images/The Elegant Universe.jpg",
->>>>>>> 0f2c0de1c667c02d4ef0d883a0c8372449e21b0f
+
       "title": "Mexican Gothic",
       "author": "Silvia Moreno-Garcia",
       "year": 2020,
@@ -535,11 +527,9 @@
     },
     {
       "id": 48,
-<<<<<<< HEAD
-      "img": "",
-=======
+
       "img": "/assets/images/The Elegant Universe.jpg",
->>>>>>> 0f2c0de1c667c02d4ef0d883a0c8372449e21b0f
+
       "title": "The Midnight Library",
       "author": "Matt Haig",
       "year": 2020,
@@ -550,11 +540,9 @@
     },
     {
       "id": 49,
-<<<<<<< HEAD
-      "img": "",
-=======
+
       "img": "/assets/images/The Elegant Universe.jpg",
->>>>>>> 0f2c0de1c667c02d4ef0d883a0c8372449e21b0f
+
       "title": "The Netanyahus",
       "author": "Joshua Cohen",
       "year": 2022,
@@ -566,11 +554,9 @@
     },
     {
       "id": 50,
-<<<<<<< HEAD
-      "img": "",
-=======
+
       "img": "/assets/images/The Elegant Universe.jpg",
->>>>>>> 0f2c0de1c667c02d4ef0d883a0c8372449e21b0f
+
       "title": "Tomb of Sand",
       "author": "Geetanjali Shree",
       "translator": "Daisy Rockwell",
@@ -583,11 +569,9 @@
     },
     {
       "id": 51,
-<<<<<<< HEAD
-      "img": "",
-=======
+
       "img": "/assets/images/The Elegant Universe.jpg",
->>>>>>> 0f2c0de1c667c02d4ef0d883a0c8372449e21b0f
+
       "title": "The Rabbit Hutch",
       "author": "Tess Gunty",
       "year": 2022,
@@ -599,11 +583,9 @@
     },
     {
       "id": 52,
-<<<<<<< HEAD
-      "img": "",
-=======
+
       "img": "/assets/images/The Elegant Universe.jpg",
->>>>>>> 0f2c0de1c667c02d4ef0d883a0c8372449e21b0f
+
       "title": "All This Could Be Different",
       "author": "Sarah Thankam Mathews",
       "year": 2022,
@@ -615,11 +597,9 @@
     },
     {
       "id": 53,
-<<<<<<< HEAD
-      "img": "",
-=======
+
       "img": "/assets/images/The Elegant Universe.jpg",
->>>>>>> 0f2c0de1c667c02d4ef0d883a0c8372449e21b0f
+
       "title": "The Haunting of Hajji Hotak and Other Stories",
       "author": "Jamil Jan Kochai",
       "year": 2022,
@@ -630,117 +610,7 @@
       "long_description": "The Haunting of Hajji Hotak and Other Stories is a collection of short stories that explore the lives of Afghans living in exile. The stories are both heartbreaking and hopeful, and they offer a glimpse into the challenges and triumphs of those who have been forced to leave their home country. The Haunting of Hajji Hotak and Other Stories is a must-read for anyone interested in Afghan literature and the experiences of refugees."
     }
   ],
-  "users": [
-    {
-<<<<<<< HEAD
-      "firstName": "ayoub",
-      "lastName": "Husein",
-      "userName": "ayoub Husein",
-      "email": "ayoubabdulrahmanhusein@gmail.com",
-      "password": "123456",
-      "address": "Zarqa",
-      "agree": "on",
-      "id": 1
-    },
-    {
-      "firstName": "ayoub",
-      "lastName": "Husein",
-      "userName": "ayoub Husein",
-      "email": "ayoubabdulrahmanhusein@gmail.com",
-      "password": "123456",
-      "address": "Zarqa",
-      "agree": "on",
-      "id": 2
-    },
-    {
-      "firstName": "ayoub",
-      "lastName": "Husein",
-      "userName": "ayoub Husein",
-      "email": "ayoubabdulrahmanhusein@gmail.com",
-      "password": "123456",
-      "address": "Zarqa",
-      "agree": "on",
-      "id": 3
-    },
-    {
-      "firstName": "reem",
-      "lastName": "mohamed",
-      "userName": "reem mohamed",
-      "email": "reammohamed@gmail.com",
-      "password": "123456",
-      "address": "Zarqa",
-      "agree": "on",
-      "id": 4
-    },
-    {
-      "firstName": "firas",
-      "lastName": "mohamed",
-      "userName": "firas mohamed",
-      "email": "firasmohamed@gmail.com",
-      "password": "123456",
-      "address": "Zarqa",
-      "agree": "on",
-      "id": 5
-    },
-    {
-      "firstName": "agf",
-      "lastName": "adga",
-      "userName": "agf adga",
-      "email": "fadgg@ugvub",
-      "password": "123456",
-      "address": "Zarqa",
-      "agree": "on",
-      "id": 6
-    },
-    {
-      "firstName": "agf",
-      "lastName": "adga",
-      "userName": "agf adga",
-      "email": "fadgg@gmail.com",
-      "password": "123456",
-      "address": "Zarqa",
-      "agree": "on",
-      "id": 7
-    },
-    {
-      "firstName": "fdasf",
-      "lastName": "afhs",
-      "userName": "fdasf afhs",
-      "email": "adfhs@uybbn.com",
-      "password": "123456",
-      "address": "Zarqa",
-      "agree": "on",
-      "id": 8
-    },
-    {
-      "firstName": "xctvybuhn",
-      "lastName": "ctvybunim",
-      "userName": "xctvybuhn ctvybunim",
-      "email": "rtfyg@Tygu.com",
-      "password": "123456",
-      "address": "Zarqa",
-      "agree": "on",
-      "id": 9
-    },
-    {
-      "firstName": "ayoub",
-      "lastName": "Husein",
-      "userName": "ayoub Husein",
-      "email": "ayoubabdulrahmanhusein@gmail.com",
-      "password": "123456",
-      "address": "Zarqa",
-      "agree": "on",
-      "id": 10
-=======
-      "id": 1,
-      "first-name": "mothana almajali",
-      "last-name": "almajali",
-      "email": "mothana@gmail.com",
-      "password": "13245",
-      "addres": "zarqa"
->>>>>>> 0f2c0de1c667c02d4ef0d883a0c8372449e21b0f
-    }
-  ],
+  "users": [],
   "comments": [
     {
       "id": 1,
@@ -751,17 +621,14 @@
     },
     {
       "id": 2,
-<<<<<<< HEAD
+
       "comment": "some 2 comment",
       "commentId": 1
     },
     {
       "id": 3,
-      "comment": "some 2 comment",
+
       "commentId": 1
-=======
-      "booknumber": "13",
-      "comment": "klrwhgfukgerkugve\n"
     },
     {
       "id": 3,
@@ -797,7 +664,6 @@
       "id": 10,
       "booknumber": "48",
       "comment": ""
->>>>>>> 0f2c0de1c667c02d4ef0d883a0c8372449e21b0f
     }
   ],
   "profile": {

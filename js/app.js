@@ -103,12 +103,12 @@ function addElement(appendin, value) {
     let li = document.createElement('li');
     li.className = "cards_item";
 
-    let { image, year, title, author, rating } = value;
+    let { img, year, title, author, rating, id } = value;
     let starRating = getStarRating(rating);
     li.innerHTML = 
-`    <section class="new">
+`    <section class="new" onclick = sendme(${id})>
         <div class="card">
-        <div class="card_image"><img id="imgloay" src="/assets/images/A History of the World in 6 Glasses.jpg" alt = ""></div>
+        <div class="card_image"><img id="imgloay" src="${img}" alt = ""></div>
         
             <div class="card_content">
                 <h2 class="card_title">${title}</h2>
@@ -122,7 +122,9 @@ function addElement(appendin, value) {
       appendin.appendChild(li);
   }
 
-
+function sendme(id){
+    window.location.href = `/html/details.html?id=${id}`;
+}
 
 function getStarRating(rating) {
   let starIcons = '';
@@ -202,7 +204,7 @@ function relatedbook() {
         .then((response) => response.json())
         .then((json) => {
             books1 = json.map(function (item) {
-                let card = new Card(item.title, item.author, item.year, item.img);
+                let card = new Card(item.title, item.author, item.year, item.img, item.id);
                 return card;
             });
 
@@ -214,12 +216,12 @@ function relatedbook() {
 
             // Create HTML for each filtered card
             let cardn = newcard.map((card, x) => `
-                <div class="book read">
+                <div class="book read" onclick = viewnewbook("${card.id}")>
                     <div class="cover">
                         <img src="${card.img}">
                     </div>
                     <div class="description">
-                        <p class="title">${newcard[x].title.slice(0, 20)}<br>
+                        <p class="title">${newcard[x].title.slice(0, 30)}<br>
                             <span class="author">${card.author}</span>
                             <h6>${card.year}</h6>
                         </p>
@@ -233,15 +235,20 @@ function relatedbook() {
 }
 
 class Card {
-    constructor(title, author, year, img) {
+    constructor(title, author, year, img, id) {
         this.title = title;
         this.author = author;
         this.year = year;
         this.img = img; // Add the image property
+        this.id = id
     }
 }
 
 relatedbook();
+
+function viewnewbook(book) {
+    window.location.href = `/html/details.html?id=${book}`;
+}
 
 
 
@@ -250,28 +257,31 @@ relatedbook();
 
  //catigories section start
 
- class Books {
-  constructor (id,img,title,long_description,author ,year,pages,rating,type) {
-      this.id = id;
-      this.img = img;
-      this.title = title;
-      this.long_description = long_description;
-      this.author = author;
-      this.year = year;
-      this.pages = pages;
-      this.rating = rating;
-      this.type = type;
+//  class Books {
+//   constructor (id,img,title,long_description,author ,year,pages,rating,type) {
+//       this.id = id;
+//       this.img = img;
+//       this.title = title;
+//       this.long_description = long_description;
+//       this.author = author;
+//       this.year = year;
+//       this.pages = pages;
+//       this.rating = rating;
+//       this.type = type;
 
-  }
-}
-var record1 = document.getElementById("button");
+//   }
+// }
 
-
-record1.addEventListener("click",(img) => {
-  
-
-  window.location.href = "books2.html"
-
+var record1 = document.querySelector(".bn632-hover.bn28");
+record1.addEventListener("click",() => {
+  window.location.href = "/html/books2.html"
 });
+
+let catego = document.querySelector(".record All");
+function filterCategory(id){
+    let booksid = id.id;
+    console.log(booksid);
+    window.location.href = `/html/books.html?booksid=${booksid}`;
+}
 
 //catigories section end

@@ -1,19 +1,17 @@
-    
-document.addEventListener("DOMContentLoaded", () =>{
-    let urlParams = new URLSearchParams(window.location.search);
-    let bookId = urlParams.get('booksid');
-    console.log(bookId);
-    let section = document.querySelector(".books");
-    fetch("http://localhost:3000/books")
-    .then(response => response.json())
-    .then(data => {
-        data.map((data) => {
-           
-            if (data.type == bookId){
-                let description = data.long_description.substring(0,150);
-                description = description + "...";
-                let book = document.createElement("div");
-                book.innerHTML = `
+document.addEventListener("DOMContentLoaded", () => {
+  let urlParams = new URLSearchParams(window.location.search);
+  let bookId = urlParams.get("booksid");
+  console.log(bookId);
+  let section = document.querySelector(".books");
+  fetch("http://localhost:3000/books")
+    .then((response) => response.json())
+    .then((data) => {
+      data.map((data) => {
+        if (data.type == bookId) {
+          let description = data.long_description.substring(0, 150);
+          description = description + "...";
+          let book = document.createElement("div");
+          book.innerHTML = `
                 <div id="container">	
                     <div class="product-details">
                         <h1>${data.title}</h1>
@@ -39,12 +37,12 @@ document.addEventListener("DOMContentLoaded", () =>{
                         </div>
                     </div>
                 </div>`;
-                section.appendChild(book);
-            }else if (data.type == bookId){
-                let description = data.long_description.substring(0,150);
-                description = description + "...";
-                let book = document.createElement("div");
-                book.innerHTML = `
+          section.appendChild(book);
+        } else if (data.type == bookId) {
+          let description = data.long_description.substring(0, 150);
+          description = description + "...";
+          let book = document.createElement("div");
+          book.innerHTML = `
                 <div id="container">	
                     <div class="product-details">
                         <h1>${data.title}</h1>
@@ -70,12 +68,12 @@ document.addEventListener("DOMContentLoaded", () =>{
                         </div>
                     </div>
                 </div>`;
-                section.appendChild(book);
-            }else if (data.type == bookId){
-                let description = data.long_description.substring(0,150);
-                description = description + "...";
-                let book = document.createElement("div");
-                book.innerHTML = `
+          section.appendChild(book);
+        } else if (data.type == bookId) {
+          let description = data.long_description.substring(0, 150);
+          description = description + "...";
+          let book = document.createElement("div");
+          book.innerHTML = `
                 <div id="container">	
                     <div class="product-details">
                         <h1>${data.title}</h1>
@@ -101,12 +99,12 @@ document.addEventListener("DOMContentLoaded", () =>{
                         </div>
                     </div>
                 </div>`;
-                section.appendChild(book);
-            }else if (data.type == bookId){
-                let description = data.long_description.substring(0,150);
-                description = description + "...";
-                let book = document.createElement("div");
-                book.innerHTML = `
+          section.appendChild(book);
+        } else if (data.type == bookId) {
+          let description = data.long_description.substring(0, 150);
+          description = description + "...";
+          let book = document.createElement("div");
+          book.innerHTML = `
                 <div id="container">	
                     <div class="product-details">
                         <h1>${data.title}</h1>
@@ -132,9 +130,9 @@ document.addEventListener("DOMContentLoaded", () =>{
                         </div>
                     </div>
                 </div>`;
-                section.appendChild(book);
-            }
-        })
+          section.appendChild(book);
+        }
+      });
     })
-    .catch(error => console.log("there is an error in fetch the books.js"))
+    .catch((error) => console.log("there is an error in fetch the books.js"));
 });

@@ -1,11 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
 body{
-  /* background-image: url(../assets/images/background.jpg);
-  background-attachment: fixed; */
   display: flex;
   flex-direction: row;
   justify-content: center;
+
+}
+
+.big-circle {
+  position: absolute;
+  width: 10px;
+  height: 500px;
+  /* border-radius: 50%; */
+  background: linear-gradient(to bottom, #be3b21, #be3b21);
+  bottom: 50%;
+  right: 50%;
+  transform: translate(-40%, 38%);
+}
+
+.big-circle:after {
+  content: "";
+  /* position: absolute; */
+  width: 360px;
+  height: 360px;
+  /* background-color: #fafafa; */
+  /* border-radius: 50%; */
+  top: calc(50% - 180px);
+  left: calc(50% - 180px);
 }
 
 /* Navbar section starts*/

@@ -7,10 +7,12 @@ fetch("http://localhost:3000/books")
         try {
         scienceBooks.forEach((book,x) => {
             
-            if (x == 4) {
-                throw BreakError;
 
-            }
+ 
+            if (x == 4) {
+               throw BreakError;
+
+             }
             const card = document.createElement("div");
             card.className = "card";
 

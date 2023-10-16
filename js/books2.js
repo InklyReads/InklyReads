@@ -6,15 +6,16 @@ fetch("http://localhost:3000/books")
         const scienceBooks = data.filter(item => item.type === "Science");
         try {
         scienceBooks.forEach((book,x) => {
-            
 
- 
             if (x == 4) {
                throw BreakError;
 
              }
             const card = document.createElement("div");
             card.className = "card";
+            // ----------------------------------------------------->
+            card.setAttribute(`onclick`,`takeme(${book.id})`);
+            card.id = `${book.id}`;
 
             const image = document.createElement("img");
             image.src = `${book.img}`;
@@ -25,6 +26,8 @@ fetch("http://localhost:3000/books")
             title.textContent = book.title;
 
             const description = document.createElement("p");
+            // let des = book.long_description.slice(0,40);----------------------------->
+            // card.setAttribute(`onclick`,`takeme()`);
             description.textContent = book.long_description;
 
             // const author = document.createElement("p");
@@ -51,7 +54,7 @@ fetch("http://localhost:3000/books")
         })}
         
         catch(error){
-            console.log("hhhhhhh")
+            console.log("hhhhhhh");
         }
        
     })
@@ -76,6 +79,9 @@ fetch("http://localhost:3000/books")
                 // Create a card for each book and fill it with data
                 const card = document.createElement("div");
                 card.className = "card";
+                card.id = `${book.id}`;
+                // ----------------------------------------------------->
+                card.setAttribute(`onclick`,`takeme(${book.id})`);
     
                 const image = document.createElement("img");
                 image.src = `${book.img}`;
@@ -138,6 +144,9 @@ fetch("http://localhost:3000/books")
                 }
                 const card = document.createElement("div");
                 card.className = "card";
+                card.id = `${book.id}`;
+                // ------------------------------------------------------>
+                card.setAttribute(`onclick`,`takeme(${book.id})`);
     
                 const image = document.createElement("img");
                 image.src = `${book.img}`;
@@ -201,6 +210,9 @@ fetch("http://localhost:3000/books")
                 }
                 const card = document.createElement("div");
                 card.className = "card";
+                card.id = `${book.id}`;
+                // ------------------------------------------------>
+                card.setAttribute(`onclick`,`takeme(${book.id})`);
     
                 const image = document.createElement("img");
                 image.src = `${book.img}`;
@@ -244,3 +256,25 @@ fetch("http://localhost:3000/books")
         .catch((error) => {
             console.error("Error fetching data: " + error);
         });
+
+function takeme(id){
+    window.location.href = `/html/details.html?id=${id}`;
+}
+
+let sicbtn = document.querySelector(".sic");
+let hisbtn = document.querySelector(".his");
+let ecobtn = document.querySelector(".eco");
+let stobtn = document.querySelector(".sto");
+
+sicbtn.addEventListener(`click`, () =>{
+    window.location.href = ``;
+})
+sicbtn.addEventListener(`click`, () =>{
+    window.location.href = ``;
+})
+sicbtn.addEventListener(`click`, () =>{
+    window.location.href = ``;
+})
+sicbtn.addEventListener(`click`, () =>{
+    window.location.href = ``;
+})

@@ -1,5 +1,4 @@
-    
-document.addEventListener("DOMContentLoaded", () =>{
+    document.addEventListener("DOMContentLoaded", () =>{
     let urlParams = new URLSearchParams(window.location.search);
     let bookId = urlParams.get('booksid');
     console.log(bookId);

@@ -30,6 +30,8 @@ menuToggle.addEventListener("click", () => {
 // navbar end
 
 // // saerch start
+
+// saerch start
 let searchForm = document.getElementById("searchForm");
 searchForm.addEventListener("submit", (e) => {
   e.preventDefault();
@@ -40,85 +42,15 @@ searchForm.addEventListener("submit", (e) => {
     })
     .then((data) => {
       data.filter((book) => {
-        book.title === searchInput ? book.id : "";
-        return (targetBook = book.id);
+        // book.title === searchInput ? book.id : "";
+        console.log(book.title === searchInput ? book.id : "");
+        // let targetbook = book.id;
+        // return targetbook;
       });
-      document.addEventListener("DOMContentLoaded", () => {
-        // استخراج معلمة الاستعلام "id" من عنوان URL
-        let urlParams = new URLSearchParams(window.location.search);
-        let bookId = urlParams.get("id");
-        window.location.href = `details.html?id=${bookId}`
-
-
+      // Window.location.href = `/html/details.html?bookId=${targetbook}`;
+    });
 });
-    })
-
-// Handle the "searchForm" submission separately from displaying book details.
-// let searchForm = document.getElementById("searchForm");
-// searchForm.addEventListener("submit", (e) => {
-//   e.preventDefault();
-//   let searchInput = document.querySelector("input[name=search]").value;
-//   let searchForm = document.getElementById("searchForm");
-//   searchForm.addEventListener("submit", (e) => {
-//     e.preventDefault();
-//     let searchInput = document.querySelector("input[name = search]").value;
-//     fetch("http://localhost:3000/books")
-//       .then((response) => {
-//         return response.json();
-//       })
-//       .then((data) => {
-//         data.filter((book) => {
-//           book.title === searchInput ? book.id : "";
-//           return (targetBook = book.id);
-//         });
-//       });
-//   });
-//   const bookId = book.id;
-//   window.location.href = `details.html?id=${bookId}`;
-// });
-
-// document.addEventListener("DOMContentLoaded", () => {
-//   // Extract the "id" parameter from the URL.
-//   let urlParams = new URLSearchParams(window.location.search);
-//   let bookId = urlParams.get("id");
-
-//   // Fetch book details based on the "bookId" parameter and display them on the "details.html" page.
-//   fetch(`http://localhost:3000/books/${bookId}`)
-//     .then((response) => response.json())
-//     .then((thebook) => {
-//       const container = document.querySelector("#product");
-//       container.innerHTML = `
-//         <div class="product_images"><img src="${thebook.img}" alt=""></div>
-//         <div class="product_details">
-//             <div class="back">
-//                <h6>Back to <a href="/html/books.html">Books</a></h6>
-//             </div>
-    
-//             <h2>${thebook.title}</h2>
-    
-//             <div class="about">
-//                 <p>Author : <span>${thebook.author}</span></p>
-//                 <p>Number of pages: <span>${thebook.pages}</span></p>   
-//                 <p>Year : <span>${thebook.year}</span></p>
-//             </div>
-    
-//             <p>${thebook.long_description}</p>
-//             <ul>
-//                 <li>type : ${thebook.type}</li>
-//             </ul>
-            
-//             <div class="cta">
-//                 <button type="button" class="btn btn-light">Get the book</button>
-//                 <div class="btn btn_outline_secondary">
-//                     <button type="button" class="btn btn-danger">Add to wishlist</button>
-//                 </div>
-//             </div>
-//         </div>`;
-//     })
-//     .catch((error) => {
-//       console.error("Error fetching book data:", error);
-//     });
-// });
+// saerch End
 // // saerch End
 
 // hero section start

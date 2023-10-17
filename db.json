@@ -320,295 +320,275 @@
       "type": "Fiction"
     },
     {
-      "id": 30,
-      "img": "/assets/images/The Three-Body Problem.jpg",
-      "title": "The Three-Body Problem",
-      "long_description": "The Three-Body Problem is the first book in the Remembrance of Earth's Past trilogy by Chinese science fiction author Liu Cixin. The novel tells the story of humanity's first contact with an alien civilization. The book was first published in China in 2006 and was translated into English in 2014. It won the Hugo Award for Best Novel in 2015. The Three-Body Problem is a complex and thought-provoking novel that explores themes of science, philosophy, and history. It is a must-read for fans of hard science fiction.",
-      "author": "Liu Cixin",
-      "year": 2006,
-      "pages": 396,
-      "rating": 4.5,
-      "type": "Science Fiction"
-    },
-    {
-      "id": 31,
-      "img": "/assets/images/A People's History.jpg",
-      "title": "A People's History of the United States: 1492-Present",
-      "long_description": "A People's History of the United States: 1492-Present is a 2010 book by Howard Zinn, a historian and political activist. The book is a popular history book that tells the story of the United States from the perspective of the working class and other marginalized groups. Zinn challenges the traditional narrative of American history, which he argues is too focused on the achievements of the elite. A People's History of the United States is a must-read for anyone who wants to understand the real history of the United States.",
-      "author": "Howard Zinn",
-      "year": 2010,
-      "pages": 720,
-      "rating": 4.5,
-      "type": "History"
-    },
-    {
-      "id": 32,
-      "img": "/assets/images/Freakonomics A Rogue Economist Explores the Hidden Side of Everything.jpg",
-      "title": "Freakonomics",
-      "long_description": "Freakonomics is a 2005 book by Steven D. Levitt and Stephen J. Dubner. The book is a popular economics book that uses real-world examples to explain complex economic concepts. Levitt and Dubner cover a wide range of topics in the book, including the economics of cheating, the economics of sumo wrestling, and the economics of real estate. Freakonomics is a must-read for anyone who wants to understand how economics works in the real world.",
-      "author": "Steven D. Levitt and Stephen J. Dubner",
-      "year": 2005,
-      "pages": 288,
-      "rating": 4.5,
-      "type": "Economics"
-    },
-    {
-      "id": 33,
-      "img": "/assets/images/To Kill a Mockingbird.jpg",
-      "title": "To Kill a Mockingbird",
-      "long_description": "To Kill a Mockingbird is a 1960 novel by Harper Lee. The book is set in the American South during the Great Depression. It tells the story of Scout Finch, a young girl who learns about racism and injustice when her father, Atticus Finch, defends a black man who has been falsely accused of rape. To Kill a Mockingbird is a must-read for anyone who wants to understand the American South during the Jim Crow era. It is also a classic coming-of-age story about a young girl who learns about the world around her.",
-      "author": "Harper Lee",
-      "year": 1960,
-      "pages": 281,
-      "rating": 4.6,
-      "type": "Fiction"
-    },
-    {
-      "id": 34,
-      "img": "",
-      "title": "The Midnight Library",
-      "author": "Matt Haig",
-      "year": 2020,
-      "pages": 304,
-      "type": "Fiction",
-      "rating": 4.5,
-      "long_description": "The Midnight Library is a novel about a woman named Nora Seed who is given the opportunity to live all the lives she could have lived, if she had made different choices. Nora is a successful woman on the outside, but she is deeply unhappy inside. She feels like she has made all the wrong choices in her life, and she regrets everything. One night, Nora attempts suicide, but she wakes up in a magical library where she can choose to live any life she wants. Nora must decide whether she wants to keep living her current life, or if she wants to start over and live a different one."
-    },
-    {
-      "id": 35,
-      "img": "",
-      "title": "The Invisible Life of Addie LaRue",
-      "author": "V.E. Schwab",
-      "year": 2020,
-      "pages": 448,
-      "type": "Fiction",
-      "rating": 4.5,
-      "long_description": "The Invisible Life of Addie LaRue is a novel about a woman named Addie LaRue who makes a deal with the devil to live forever. Addie gets everything she has ever wanted: beauty, wealth, and eternal life. But there is a catch: no one will ever remember her. Addie is invisible to the world, and she is doomed to spend eternity alone. The novel follows Addie's journey through the centuries as she tries to find meaning in her life, despite her curse."
-    },
-    {
-      "id": 36,
-      "img": "",
-      "title": "Mexican Gothic",
-      "author": "Silvia Moreno-Garcia",
-      "year": 2020,
-      "pages": 304,
-      "type": "Fiction",
-      "rating": 4.5,
-      "long_description": "Mexican Gothic is a novel about a young woman named Noemí Taboada who is sent to investigate her cousin's mysterious illness. Noemí is a socialite who has never left the city, and she is unprepared for the horrors that await her at High Place, her cousin's ancestral home. High Place is a decaying mansion that is rumored to be haunted by the ghosts of the family's past. As Noemí investigates her cousin's illness, she uncovers the dark secrets of the Doyle family and the house they call home."
-    },
-    {
-      "id": 37,
-      "img": "",
-      "title": "A Psalm for the Wild-Built",
-      "author": "Becky Chambers",
-      "year": 2020,
-      "pages": 160,
-      "type": "Fiction",
-      "rating": 4.5,
-      "long_description": "A Psalm for the Wild-Built is a novel about a tea monk named Sibling Dex who travels from town to town, offering tea and conversation to anyone who needs it. One day, Sibling Dex meets a robot named Mosscap who is on a journey to find the meaning of life. Sibling Dex and Mosscap become friends, and they travel together through a world that is slowly healing from a devastating war. A Psalm for the Wild-Built is a gentle and heartwarming novel about friendship, community, and the power of tea."
-    },
-    {
-      "id": 38,
-      "img": "",
-      "title": "The Ninth Life of Liu Bei",
-      "long_description": "The Ninth Life of Liu Bei is a novel about the life of Liu Bei, a Chinese warlord who lived during the Three Kingdoms period. The novel follows Liu Bei's journey from a humble peasant to the Emperor of Shu. Liu Bei was a complex and fascinating figure, and the novel does a masterful job of capturing his personality and his motivations. The Ninth Life of Liu Bei is a must-read for any fan of historical fiction.",
-      "author": "Ma Jian",
-      "year": 2023,
-      "pages": 480,
-      "type": "Fiction",
-      "rating": 4.5
-    },
-    {
-      "id": 39,
-      "img": "",
-      "title": "The Book of Form and Emptiness",
-      "long_description": "The Book of Form and Emptiness is a novel about a young woman named Benny Oh who is struggling with grief and loss. Benny's mother has recently passed away, and Benny is feeling lost and alone. She begins to have visions of her mother, and she starts to see the world in a new way. The Book of Form and Emptiness is a beautiful and moving novel about grief, loss, and the power of imagination.",
-      "author": "Ruth Ozeki",
-      "year": 2023,
-      "pages": 384,
-      "type": "Fiction",
-      "rating": 4.5
-    },
-    {
-      "id": 40,
-      "img": "",
-      "title": "The Marriage Portrait",
-      "long_description": "The Marriage Portrait is a novel about a young woman named Lucrezia de' Medici who is married to a wealthy merchant. Lucrezia is a beautiful and intelligent woman, but she is also unhappy in her marriage. She feels trapped in her role as a wife and mother, and she longs for more. The Marriage Portrait is a dark and suspenseful novel about betrayal, revenge, and the power of art.",
-      "author": "Maggie O'Farrell",
-      "year": 2023,
-      "pages": 320,
-      "type": "Fiction",
-      "rating": 4.5
-    },
-    {
-      "id": 41,
-      "img": "",
-      "title": "Lessons in Chemistry",
-      "long_description": "Lessons in Chemistry is a novel about a young woman named Elizabeth Zott who is a chemist and a television cooking show host. Elizabeth is a brilliant scientist, but she is also a feminist and a social activist. She uses her television show to teach women about chemistry and to empower them to live their lives to the fullest. Lessons in Chemistry is a funny and heartwarming novel about love, science, and the power of women.",
-      "author": "Bonnie Garmus",
-      "year": 2023,
-      "pages": 368,
-      "type": "Fiction",
-      "rating": 4.5
-    },
-    {
-      "id": 42,
-      "img": "",
-      "title": "The Candy House",
-      "long_description": "The Candy House is a novel about a family who is struggling to cope with the loss of their child. The family's daughter, Bix, was abducted when she was a child, and she has never been found. The family is haunted by Bix's disappearance, and they are all struggling to move on with their lives. The Candy House is a powerful and moving novel about grief, loss, and the hope of finding closure.",
-      "author": "Jennifer Egan",
-      "year": 2023,
-      "pages": 432,
-      "type": "Fiction",
-      "rating": 4.5
-    },
-    {
-      "id": 43,
-      "img": "",
-      "title": "The Sixth Extinction: An Unnatural History",
-      "long_description": "The Sixth Extinction: An Unnatural History is a book about the sixth mass extinction that is currently happening on Earth. Elizabeth Kolbert argues in the book that the current mass extinction is the worst in the history of the planet, and that it is entirely human-caused. Kolbert explores the causes of the current mass extinction, and she looks at the ways in which it is impacting the planet and its inhabitants. The Sixth Extinction is a sobering but important book that everyone should read.",
-      "author": "Elizabeth Kolbert",
-      "year": 2014,
-      "pages": 319,
-      "type": "Non-Fiction",
-      "rating": 4.5
-    },
-    {
-      "id": 44,
-
-      "img": "/assets/images/The Elegant Universe.jpg",
-
-      "title": "The Invisible Life of Addie LaRue",
-      "author": "V.E. Schwab",
-      "year": 2020,
-      "pages": 448,
-      "type": "Fiction",
-      "rating": 5,
-      "long_description": "A young woman makes a deal with the devil to live forever, but at a price: no one will ever remember her. She must find meaning in her life despite her curse, and she must learn to love herself even when no one else does."
-    },
-    {
-      "id": 45,
-
-      "img": "/assets/images/The Elegant Universe.jpg",
-
-      "title": "The House in the Cerulean Sea",
-      "author": "T.J. Klune",
-      "year": 2020,
-      "pages": 394,
-      "type": "Fiction",
-      "rating": 5,
-      "long_description": "A social worker is sent to investigate a magical orphanage for children with extraordinary abilities. He quickly falls in love with the children and the orphanage's director, and he must learn to accept the magic in his life."
-    },
-    {
-      "id": 46,
-
-      "img": "/assets/images/The Elegant Universe.jpg",
-
-      "title": "A Psalm for the Wild-Built",
-      "author": "Becky Chambers",
-      "year": 2020,
-      "pages": 160,
-      "type": "Fiction",
-      "rating": 5,
-      "long_description": "A tea monk travels from town to town, offering tea and conversation to anyone who needs it. One day, she meets a robot who is on a journey to find the meaning of life. Together, they travel through a world that is slowly healing from a devastating war."
-    },
-    {
-      "id": 47,
-
-      "img": "/assets/images/The Elegant Universe.jpg",
-
-      "title": "Mexican Gothic",
-      "author": "Silvia Moreno-Garcia",
-      "year": 2020,
-      "pages": 304,
-      "type": "Fiction",
-      "rating": 5,
-      "long_description": "A young woman is sent to investigate her cousin's mysterious illness at her ancestral home. She soon discovers that the house is haunted by the ghosts of the family's past, and she must uncover the dark secrets of the Doyle family in order to save her cousin."
-    },
-    {
-      "id": 48,
-
-      "img": "/assets/images/The Elegant Universe.jpg",
-
-      "title": "The Midnight Library",
-      "author": "Matt Haig",
-      "year": 2020,
-      "pages": 304,
-      "type": "Fiction",
-      "rating": 5,
-      "long_description": "A woman who attempts suicide wakes up in a magical library where she can choose to live any life she wants. She must decide whether she wants to keep living her current life, or if she wants to start over and live a different one."
-    },
-    {
-      "id": 49,
-
-      "img": "/assets/images/The Elegant Universe.jpg",
-
-      "title": "The Netanyahus",
-      "author": "Joshua Cohen",
-      "year": 2022,
-      "pages": 336,
-      "type": "Fiction",
-      "rating": 4.5,
-      "prize": "1",
-      "description": "The Netanyahus is a satirical novel about the Netanyahu family, a prominent Israeli political family. The novel is told from the perspective of Ruben Blum, a fictional American Jewish writer who is invited to Israel to write a biography of Benzion Netanyahu, the father of Israeli Prime Minister Benjamin Netanyahu. Blum arrives in Israel to find that Benzion is not the man he expected. Benzion is a brilliant but eccentric scholar who is more interested in his own ideas than in the truth. Blum also finds himself drawn to Benzion's wife, Cela, a beautiful and mysterious woman."
-    },
-    {
-      "id": 50,
-
-      "img": "/assets/images/The Elegant Universe.jpg",
-
-      "title": "Tomb of Sand",
-      "author": "Geetanjali Shree",
-      "translator": "Daisy Rockwell",
-      "year": 2022,
-      "pages": 240,
-      "type": "Fiction",
-      "rating": 4.5,
-      "prize": "1",
-      "long_description": "An elderly woman named Ma, who has always been the anchor for her family, is suddenly overcome with a strange restlessness. She refuses to leave her bed and insists on traveling alone to Pakistan. Her son, Pran, is forced to confront the secrets of his childhood and the choices he has made as he tries to understand his mother's decision in this poignant and moving novel."
-    },
-    {
-      "id": 51,
-
-      "img": "/assets/images/The Elegant Universe.jpg",
-
-      "title": "The Rabbit Hutch",
-      "author": "Tess Gunty",
-      "year": 2022,
-      "pages": 384,
-      "type": "Fiction",
-      "rating": 4.5,
-      "prize": "1",
-      "long_description": "Set in working-class New England, The Rabbit Hutch tells the story of a group of young people living in a low-income housing complex. The novel follows their struggles and triumphs as they navigate the challenges of poverty, violence, and addiction. The Rabbit Hutch is a powerful and moving novel that gives voice to the voiceless and offers a glimpse into the lives of those who are often overlooked."
-    },
-    {
-      "id": 52,
-
-      "img": "/assets/images/The Elegant Universe.jpg",
-
-      "title": "All This Could Be Different",
-      "author": "Sarah Thankam Mathews",
-      "year": 2022,
-      "pages": 288,
-      "type": "Non-Fiction",
-      "rating": 4.5,
-      "prize": "1",
-      "long_description": "All This Could Be Different is a collection of essays that explore the intersection of race, gender, and class in America. The essays are personal and insightful, and they offer a unique perspective on the challenges and opportunities facing women of color in today's society. All This Could Be Different is a must-read for anyone interested in social justice and the experiences of women of color."
-    },
-    {
-      "id": 53,
-
-      "img": "/assets/images/The Elegant Universe.jpg",
-
-      "title": "The Haunting of Hajji Hotak and Other Stories",
-      "author": "Jamil Jan Kochai",
-      "year": 2022,
-      "pages": 256,
-      "type": "Fiction",
-      "rating": 4.5,
-      "prize": "1",
-      "long_description": "The Haunting of Hajji Hotak and Other Stories is a collection of short stories that explore the lives of Afghans living in exile. The stories are both heartbreaking and hopeful, and they offer a glimpse into the challenges and triumphs of those who have been forced to leave their home country. The Haunting of Hajji Hotak and Other Stories is a must-read for anyone interested in Afghan literature and the experiences of refugees."
-    }
+        "id": 30,
+        "img": "/assets/images/The Three-Body Problem.jpg",
+        "title": "The Three-Body Problem",
+        "long_description": "The Three-Body Problem is the first book in the Remembrance of Earth's Past trilogy by Chinese science fiction author Liu Cixin. The novel tells the story of humanity's first contact with an alien civilization. The book was first published in China in 2006 and was translated into English in 2014. It won the Hugo Award for Best Novel in 2015. The Three-Body Problem is a complex and thought-provoking novel that explores themes of science, philosophy, and history. It is a must-read for fans of hard science fiction.",
+        "author": "Liu Cixin",
+        "year": 2006,
+        "pages": 396,
+        "rating": 4.5,
+        "type": "Science Fiction"
+      },
+      {
+        "id": 31,
+        "img": "change",
+        "title": "change",
+        "long_description": "A People's History of the United States: 1492-Present is a 2010 book by Howard Zinn, a historian and political activist. The book is a popular history book that tells the story of the United States from the perspective of the working class and other marginalized groups. Zinn challenges the traditional narrative of American history, which he argues is too focused on the achievements of the elite. A People's History of the United States is a must-read for anyone who wants to understand the real history of the United States.",
+        "author": "Howard Zinn",
+        "year": 2010,
+        "pages": 720,
+        "rating": 4.5,
+        "type": "History"
+      },
+      {
+        "id": 32,
+        "img": "/assets/images/Freakonomics A Rogue Economist Explores the Hidden Side of Everything.jpg",
+        "title": "Freakonomics: A Rogue Economist Explores the Hidden Side of Everything",
+        "long_description": "Freakonomics is a 2005 book by Steven D. Levitt and Stephen J. Dubner. The book is a popular economics book that uses real-world examples to explain complex economic concepts. Levitt and Dubner cover a wide range of topics in the book, including the economics of cheating, the economics of sumo wrestling, and the economics of real estate. Freakonomics is a must-read for anyone who wants to understand how economics works in the real world.",
+        "author": "Steven D. Levitt and Stephen J. Dubner",
+        "year": 2005,
+        "pages": 288,
+        "rating": 4.5,
+        "type": "Economics"
+      },
+      {
+        "id": 33,
+        "img": "/assets/images/To Kill a Mockingbird.jpg",
+        "title": "To Kill a Mockingbird",
+        "long_description": "To Kill a Mockingbird is a 1960 novel by Harper Lee. The book is set in the American South during the Great Depression. It tells the story of Scout Finch, a young girl who learns about racism and injustice when her father, Atticus Finch, defends a black man who has been falsely accused of rape. To Kill a Mockingbird is a must-read for anyone who wants to understand the American South during the Jim Crow era. It is also a classic coming-of-age story about a young girl who learns about the world around her.",
+        "author": "Harper Lee",
+        "year": 1960,
+        "pages": 281,
+        "rating": 4.6,
+        "type": "Fiction"
+      },
+      {
+        "id": 34,
+        "img": "/assets/images/The Midnight Library.jpg",
+        "title": "The Midnight Library",
+        "author": "Matt Haig",
+        "year": 2020,
+        "pages": 304,
+        "type": "Fiction",
+        "rating": 4.5,
+        "long_description": "The Midnight Library is a novel about a woman named Nora Seed who is given the opportunity to live all the lives she could have lived, if she had made different choices. Nora is a successful woman on the outside, but she is deeply unhappy inside. She feels like she has made all the wrong choices in her life, and she regrets everything. One night, Nora attempts suicide, but she wakes up in a magical library where she can choose to live any life she wants. Nora must decide whether she wants to keep living her current life, or if she wants to start over and live a different one."
+      },
+      {
+        "id": 35,
+        "img": "/assets/images/The Invisible Life of Addie LaRue.jpg",
+        "title": "The Invisible Life of Addie LaRue",
+        "author": "V.E. Schwab",
+        "year": 2020,
+        "pages": 448,
+        "type": "Fiction",
+        "rating": 4.5,
+        "long_description": "The Invisible Life of Addie LaRue is a novel about a woman named Addie LaRue who makes a deal with the devil to live forever. Addie gets everything she has ever wanted: beauty, wealth, and eternal life. But there is a catch: no one will ever remember her. Addie is invisible to the world, and she is doomed to spend eternity alone. The novel follows Addie's journey through the centuries as she tries to find meaning in her life, despite her curse."
+      },
+      {
+        "id": 36,
+        "img": "/assets/images/Mexican Gothic.jpg",
+        "title": "Mexican Gothic",
+        "author": "Silvia Moreno-Garcia",
+        "year": 2020,
+        "pages": 304,
+        "type": "Fiction",
+        "rating": 4.5,
+        "long_description": "Mexican Gothic is a novel about a young woman named Noemí Taboada who is sent to investigate her cousin's mysterious illness. Noemí is a socialite who has never left the city, and she is unprepared for the horrors that await her at High Place, her cousin's ancestral home. High Place is a decaying mansion that is rumored to be haunted by the ghosts of the family's past. As Noemí investigates her cousin's illness, she uncovers the dark secrets of the Doyle family and the house they call home."
+      },
+      {
+        "id": 37,
+        "img": "/assets/images/A Psalm for the Wild-Built dd.jpg",
+        "title": "A Psalm for the Wild-Built",
+        "author": "Becky Chambers",
+        "year": 2020,
+        "pages": 160,
+        "type": "Fiction",
+        "rating": 4.5,
+        "long_description": "A Psalm for the Wild-Built is a novel about a tea monk named Sibling Dex who travels from town to town, offering tea and conversation to anyone who needs it. One day, Sibling Dex meets a robot named Mosscap who is on a journey to find the meaning of life. Sibling Dex and Mosscap become friends, and they travel together through a world that is slowly healing from a devastating war. A Psalm for the Wild-Built is a gentle and heartwarming novel about friendship, community, and the power of tea."
+      },
+      {
+        "id": 38,
+        "img": "/assets/images/The Ninth Life of Liu Bei.jpg",
+        "title": "The Ninth Life of Liu Bei",
+        "long_description": "The Ninth Life of Liu Bei is a novel about the life of Liu Bei, a Chinese warlord who lived during the Three Kingdoms period. The novel follows Liu Bei's journey from a humble peasant to the Emperor of Shu. Liu Bei was a complex and fascinating figure, and the novel does a masterful job of capturing his personality and his motivations. The Ninth Life of Liu Bei is a must-read for any fan of historical fiction.",
+        "author": "Ma Jian",
+        "year": 2023,
+        "pages": 480,
+        "type": "Fiction",
+        "rating": 4.5
+      },
+      {
+        "id": 39,
+        "img": "/assets/images/The Book of Form and Emptiness.jpg",
+        "title": "The Book of Form and Emptiness",
+        "long_description": "The Book of Form and Emptiness is a novel about a young woman named Benny Oh who is struggling with grief and loss. Benny's mother has recently passed away, and Benny is feeling lost and alone. She begins to have visions of her mother, and she starts to see the world in a new way. The Book of Form and Emptiness is a beautiful and moving novel about grief, loss, and the power of imagination.",
+        "author": "Ruth Ozeki",
+        "year": 2023,
+        "pages": 384,
+        "type": "Fiction",
+        "rating": 4.5
+      },
+      {
+        "id": 40,
+        "img": "/assets/images/The Marriage Portrait.jpg",
+        "title": "The Marriage Portrait",
+        "long_description": "The Marriage Portrait is a novel about a young woman named Lucrezia de' Medici who is married to a wealthy merchant. Lucrezia is a beautiful and intelligent woman, but she is also unhappy in her marriage. She feels trapped in her role as a wife and mother, and she longs for more. The Marriage Portrait is a dark and suspenseful novel about betrayal, revenge, and the power of art.",
+        "author": "Maggie O'Farrell",
+        "year": 2023,
+        "pages": 320,
+        "type": "Fiction",
+        "rating": 4.5
+      },
+      {
+        "id": 41,
+        "img": "/assets/images/Lessons in Chemistry.jpg",
+        "title": "Lessons in Chemistry",
+        "long_description": "Lessons in Chemistry is a novel about a young woman named Elizabeth Zott who is a chemist and a television cooking show host. Elizabeth is a brilliant scientist, but she is also a feminist and a social activist. She uses her television show to teach women about chemistry and to empower them to live their lives to the fullest. Lessons in Chemistry is a funny and heartwarming novel about love, science, and the power of women.",
+        "author": "Bonnie Garmus",
+        "year": 2023,
+        "pages": 368,
+        "type": "Fiction",
+        "rating": 4.5
+      },
+      {
+        "id": 42,
+        "img": "/assets/images/The Candy House.jpg",
+        "title": "The Candy House",
+        "long_description": "The Candy House is a novel about a family who is struggling to cope with the loss of their child. The family's daughter, Bix, was abducted when she was a child, and she has never been found. The family is haunted by Bix's disappearance, and they are all struggling to move on with their lives. The Candy House is a powerful and moving novel about grief, loss, and the hope of finding closure.",
+        "author": "Jennifer Egan",
+        "year": 2023,
+        "pages": 432,
+        "type": "Fiction",
+        "rating": 4.5
+      },
+      {
+        "id": 43,
+        "img": "change",
+        "title": "change",
+        "long_description": "The Sixth Extinction: An Unnatural History is a book about the sixth mass extinction that is currently happening on Earth. Elizabeth Kolbert argues in the book that the current mass extinction is the worst in the history of the planet, and that it is entirely human-caused. Kolbert explores the causes of the current mass extinction, and she looks at the ways in which it is impacting the planet and its inhabitants. The Sixth Extinction is a sobering but important book that everyone should read.",
+        "author": "Elizabeth Kolbert",
+        "year": 2014,
+        "pages": 319,
+        "type": "Non-Fiction",
+        "rating": 4.5
+      },
+        {
+          "id": 44,
+          "img": "change",
+          "title": "change",
+          "author": "V.E. Schwab",
+          "year": 2020,
+          "pages": 448,
+          "type": "Fiction",
+          "rating": 5,
+          "long_description": "A young woman makes a deal with the devil to live forever, but at a price: no one will ever remember her. She must find meaning in her life despite her curse, and she must learn to love herself even when no one else does."
+        },
+        {
+          "id": 45,
+          "img": "/assets/images/The House in the Cerulean Sea.jpg",
+          "title": "The House in the Cerulean Sea",
+          "author": "T.J. Klune",
+          "year": 2020,
+          "pages": 394,
+          "type": "Fiction",
+          "rating": 5,
+          "long_description": "A social worker is sent to investigate a magical orphanage for children with extraordinary abilities. He quickly falls in love with the children and the orphanage's director, and he must learn to accept the magic in his life."
+        },
+        {
+          "id": 46,
+          "img": "/assets/images/A Psalm for the Wild-Built dd.jpg",
+          "title": "A Psalm for the Wild-Built",
+          "author": "Becky Chambers",
+          "year": 2020,
+          "pages": 160,
+          "type": "Fiction",
+          "rating": 5,
+          "long_description": "A tea monk travels from town to town, offering tea and conversation to anyone who needs it. One day, she meets a robot who is on a journey to find the meaning of life. Together, they travel through a world that is slowly healing from a devastating war."
+        },
+        {
+          "id": 47,
+          "img": "change",
+          "title": "change",
+          "author": "Silvia Moreno-Garcia",
+          "year": 2020,
+          "pages": 304,
+          "type": "Fiction",
+          "rating": 5,
+          "long_description": "A young woman is sent to investigate her cousin's mysterious illness at her ancestral home. She soon discovers that the house is haunted by the ghosts of the family's past, and she must uncover the dark secrets of the Doyle family in order to save her cousin."
+        },
+        {
+          "id": 48,
+          "img": "change",
+          "title": "change",
+          "author": "Matt Haig",
+          "year": 2020,
+          "pages": 304,
+          "type": "Fiction",
+          "rating": 5,
+          "long_description": "A woman who attempts suicide wakes up in a magical library where she can choose to live any life she wants. She must decide whether she wants to keep living her current life, or if she wants to start over and live a different one."
+        },
+        {
+            "id": 49,
+            "img": "/assets/images\netany_1024x.webp",
+            "title": "The Netanyahus: An Account of a Minor and Ultimately Even Negligible Episode in the History of a Very Famous Family",
+            "author": "Joshua Cohen",
+            "year": 2022,
+            "pages": 336,
+            "type": "Fiction",
+            "rating": 4.5,
+            "prize": "Pulitzer Prize for Fiction",
+            "description": "The Netanyahus is a satirical novel about the Netanyahu family, a prominent Israeli political family. The novel is told from the perspective of Ruben Blum, a fictional American Jewish writer who is invited to Israel to write a biography of Benzion Netanyahu, the father of Israeli Prime Minister Benjamin Netanyahu. Blum arrives in Israel to find that Benzion is not the man he expected. Benzion is a brilliant but eccentric scholar who is more interested in his own ideas than in the truth. Blum also finds himself drawn to Benzion's wife, Cela, a beautiful and mysterious woman."
+          },
+      {
+        "id": 50,
+        "img": "/assets/images/The Marriage Portrait.jpg",
+        "title": "/assets/images/Tomb of Sand.jpg",
+        "author": "Geetanjali Shree",
+        "translator": "Daisy Rockwell",
+        "year": 2022,
+        "pages": 240,
+        "type": "Fiction",
+        "rating": 4.5,
+        "prize": "International Booker Prize",
+        "long_description": "An elderly woman named Ma, who has always been the anchor for her family, is suddenly overcome with a strange restlessness. She refuses to leave her bed and insists on traveling alone to Pakistan. Her son, Pran, is forced to confront the secrets of his childhood and the choices he has made as he tries to understand his mother's decision in this poignant and moving novel."
+      },
+      {
+        "id": 51,
+        "img": "/assets/images/The Rabbit Hutch.jpg",
+        "title": "The Rabbit Hutch",
+        "author": "Tess Gunty",
+        "year": 2022,
+        "pages": 384,
+        "type": "Fiction",
+        "rating": 4.5,
+        "prize": "National Book Award for Fiction",
+        "long_description": "Set in working-class New England, The Rabbit Hutch tells the story of a group of young people living in a low-income housing complex. The novel follows their struggles and triumphs as they navigate the challenges of poverty, violence, and addiction. The Rabbit Hutch is a powerful and moving novel that gives voice to the voiceless and offers a glimpse into the lives of those who are often overlooked."
+      },
+      {
+        "id": 52,
+        "img": "/assets/images/All This Could Be Different.jpg",
+        "title": "All This Could Be Different",
+        "author": "Sarah Thankam Mathews",
+        "year": 2022,
+        "pages": 288,
+        "type": "Non-Fiction",
+        "rating": 4.5,
+        "prize": "National Book Award for Nonfiction",
+        "long_description": "All This Could Be Different is a collection of essays that explore the intersection of race, gender, and class in America. The essays are personal and insightful, and they offer a unique perspective on the challenges and opportunities facing women of color in today's society. All This Could Be Different is a must-read for anyone interested in social justice and the experiences of women of color."
+      },
+      {
+        "id": 53,
+        "img": "/assets/images/The Haunting of Hajji Hotak and Other Stories.jpg",
+        "title": "The Haunting of Hajji Hotak and Other Stories",
+        "author": "Jamil Jan Kochai",
+        "year": 2022,
+        "pages": 256,
+        "type": "Fiction",
+        "rating": 4.5,
+        "prize": "PEN/Faulkner Award for Fiction",
+        "long_description": "The Haunting of Hajji Hotak and Other Stories is a collection of short stories that explore the lives of Afghans living in exile. The stories are both heartbreaking and hopeful, and they offer a glimpse into the challenges and triumphs of those who have been forced to leave their home country. The Haunting of Hajji Hotak and Other Stories is a must-read for anyone interested in Afghan literature and the experiences of refugees."
+      }
   ],
   "users": [],
   "comments": [

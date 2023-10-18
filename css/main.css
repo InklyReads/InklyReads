@@ -9,30 +9,54 @@
   box-sizing: border-box;
   font-family: Poppins, sans-serif;
 }
-body {
-  /* background: #dee1e2; */
-  min-height: 100vh;
-  overflow-x: hidden;
-}
 
 /* nav bar start */
 nav {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
-  height: 80px;
-  background: #fff;
-  padding: 20px 20px;
+  height: 84px;
   display: flex;
-  justify-content: space-around;
   align-items: center;
-  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.05);
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  background: rgb(255, 255, 255);
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 15px 15px;
+  position: fixed;
+  z-index: 1000;
 }
 
-.person {
+nav.open {
+  background-color: #ccc;
+}
+
+/* order navbar */
+nav > a.name {
+  order: 2;
+}
+nav > .group {
+  order: 3;
+}
+nav > span.icon {
+  margin-top: 1px;
+  order: 4;
+}
+
+nav .person {
   font-size: 22px;
   color: #000000;
+  order: 5;
+}
+i.fa-solid.fa-up-right-from-square span {
+  color: #ed553b;
+  margin-left: 10px;
+  order: 6;
+}
+
+i.fa-solid.fa-bars.menuToggle {
+  order: 1;
+}
+form#signoutForm {
+  order: 6;
 }
 
 nav > .logoutIcon > button {
@@ -82,10 +106,11 @@ nav ul li {
 nav ul li a {
   position: relative;
   text-decoration: none;
-  font-size: 1em;
+  font-size: 20px;
   color: #333;
   text-transform: uppercase;
   letter-spacing: 0.2em;
+  font-weight: 500;
 }
 
 nav ul li a::before {
@@ -145,8 +170,7 @@ nav ul li a:hover::before {
 
 .searchBtn {
   position: relative;
-  left: 30px;
-  top: 2.5px;
+  left: 10px;
   transition: 0.5s ease-in-out;
 }
 
@@ -256,7 +280,6 @@ nav form {
 }
 
 .slider {
-  margin-top: 80px;
   position: relative;
   width: 100%;
   /* background: #024b93; */
@@ -472,42 +495,95 @@ nav form {
 
 /* hero seaction end */
 
-.toprated {
-  margin-top: 120px;
-}
-
-.cards {
-  display: inline-block; /* Display cards in a row */
-  width: 100em;
-}
-
 /* ... (your existing CSS styles) ... */
 
+section.toprated {
+  margin-top: 220px;
+  margin-bottom: 220px;
+}
+
 .carousel-container {
-  margin-bottom: 100px;
-  width: 100%;
-  overflow-x: hidden;
-  white-space: nowrap;
   background-color: #fff;
   border-radius: 10px;
+  transition: transform 0.3s ease;
+}
 
-  transition: transform 0.3s ease; /* Add smooth transition for scrolling effect */
+.two.alt-two {
+  margin-top: 50px;
 }
 
 .cards {
-  display: inline-flex;
-  padding: 30px 30px;
-  margin: 0;
-  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 25%);
+  grid-template-rows: repeat(2, 40%);
+
+  align-content: space-between;
+  justify-content: center;
+  justify-items: center;
+  grid-template-areas:
+    "a b c"
+    "e . d";
 }
+
+.cards li:nth-child(1) {
+  grid-area: a;
+}
+
+.cards li:nth-child(2) {
+  grid-area: b;
+}
+
+h1.Catigoriseh1 {
+  margin-top: -40px;
+}
+
+.cards li:nth-child(3) {
+  grid-area: c;
+}
+
+.cards li:nth-child(4) {
+  grid-area: d;
+}
+
+.cards li:nth-child(5) {
+  grid-area: e;
+}
+
+@media (max-width: 900px) {
+  .cards {
+    grid-template-columns: repeat(2, 34%);
+    grid-template-rows: repeat(2, 33%);
+    grid-row-gap: 1%;
+    grid-column-gap: 3%;
+    grid-template-areas:
+      "a b"
+      "c e"
+      "d .";
+  }
+}
+
+@media (max-width: 665px) {
+  .cards {
+    grid-template-columns: repeat(1, 79%);
+    grid-template-rows: repeat(5, 20%);
+    grid-row-gap: 1%;
+    grid-column-gap: 1%;
+    font-size: 20px;
+    grid-template-areas:
+      "a"
+      "b"
+      "c"
+      "e"
+      "d";
+  }
+}
+
 .cards_item:hover {
   transition: transform 0.3s ease;
   transform: scale(1.03);
   border-color: #2e6990; /* Change the border color on hover */
 }
 .cards_item {
-  width: 100px;
-  margin-right: 20px;
   flex: 0 0 auto;
   background-color: #ffffff;
   border-radius: 10px;
@@ -676,11 +752,6 @@ h1 span {
 /* Font */
 @import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
 
-.container {
-  margin: 0 auto;
-  max-width: 910px;
-}
-
 .choose {
   width: 100%;
   height: 40px;
@@ -696,14 +767,9 @@ Book stuff
 *******************************************/
 
 .book {
-  display: inline-block;
-  width: 230px;
-  height: 390px;
   box-shadow: 0 0 20px #aaa;
-  margin: 25px;
-  padding: 10px 10px 0 10px;
-  vertical-align: top;
   transition: transform 0.5s;
+  display: inline-block;
 }
 
 .book:hover {
@@ -1049,41 +1115,25 @@ h1 {
 /* new section end  */
 
 .cover {
-  border: 2px solid gray;
-  height: 80%;
   overflow: hidden;
-  height: 253px;
+}
+
+div.description {
+  padding: 5%;
 }
 
 .cover img {
   width: 100%;
+  height: 20% !important;
 }
 
 .book p {
-  margin-top: 10px;
   font-size: 12px;
+  font-size: 11px;
 }
 
 .book .author {
   font-size: 15px;
-}
-@media (max-width: 941px) {
-  .container {
-    max-width: 700px;
-  }
-  .book {
-    margin: 49px;
-  }
-}
-@media (max-width: 730px) {
-  .book {
-    display: block;
-    margin: 0 auto;
-    margin-top: 50px;
-  }
-  /* .cover {
-      
-        } */
 }
 
 .newRelaseh1 {
@@ -1092,37 +1142,96 @@ h1 {
   margin-bottom: -3px;
 }
 
-#list-th:target .book {
-  height: 100px;
-  width: 250px;
-  padding: 10px;
-  margin: 25px auto 25px auto;
-}
-
-#list-th:target .cover {
-  width: 246px;
+.newRelaseh1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #list-th {
-  flex-wrap: nowrap;
-  display: flex;
-  width: 1263px;
-  margin-left: -176px;
-
-  /* transition: transform 0.3s;  */
+  display: grid;
+  grid-template-columns: repeat(3, 21%);
+  grid-template-rows: repeat(2, 49%);
+  grid-row-gap: 5%;
+  grid-column-gap: 5%;
+  align-content: space-between;
+  justify-content: center;
+  margin-bottom: 150px;
+  grid-template-areas:
+    "a b c"
+    "e . d";
 }
 
-#list-th:target img {
-  opacity: 0.1;
+@media (max-width: 900px) {
+  #list-th {
+    grid-template-columns: repeat(2, 34%);
+    grid-template-rows: repeat(2, 33%);
+    grid-row-gap: 1%;
+    grid-column-gap: 3%;
+    .description,
+    .title,
+    .author {
+      font-size: 14px;
+    }
+    grid-template-areas:
+      "a b"
+      "c e"
+      "d .";
+  }
 }
 
-#list-th:target p {
-  margin-top: -62px;
-  margin-left: 20px;
+@media (max-width: 665px) {
+  #list-th {
+    grid-template-columns: repeat(1, 79%);
+    grid-template-rows: repeat(5, 20%);
+    grid-row-gap: 1%;
+    grid-column-gap: 1%;
+    font-size: 20px;
+    .description,
+    .title,
+    .author {
+      font-size: 25px;
+    }
+    grid-template-areas:
+      "a"
+      "b"
+      "c"
+      "e"
+      "d";
+  }
 }
-/* remove button?  */
-#large-th:target .book {
-  height: 390px;
+span.author {
+  font-size: 12px !important;
+}
+
+.book.read:nth-child(1) {
+  grid-area: a;
+}
+
+.book.read:nth-child(2) {
+  grid-area: b;
+}
+
+.book.read:nth-child(3) {
+  grid-area: c;
+}
+
+.book.read:nth-child(4) {
+  grid-area: d;
+}
+
+.book.read:nth-child(5) {
+  grid-area: e;
+}
+
+.book.read {
+  .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3498db;
+    color: white;
+    font-size: 2rem;
+  }
 }
 
 /* new section end  */

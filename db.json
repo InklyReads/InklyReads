@@ -1804,48 +1804,55 @@
       "id": 121
     }
   ],
+
   "comments": [
     {
       "id": 1,
       "booknumber": "1",
       "comment": "mycomment",
-      "useremail": "mothana@gmail.com",
       "username": "mothana"
-    },
+    }
+  ],
+
+  "profile": [
     {
-      "id": 2,
-      "comment": "some 2 comment",
-      "commentId": 1
-    },
+      "name": "typicode"
+    }
+  ],
+  "wishlist": [
     {
-      "id": 3,
-      "commentId": 1
+      "id": 1,
+      "bookid": "1",
+      "user": "useremail"
     },
     {
       "id": 4,
-      "booknumber": "51",
-      "comment": "dflkbnldfb\n"
+      "bookid": "51",
+      "user": "useremail"
     },
     {
       "id": 5,
-      "booknumber": "49",
-      "comment": "llllllll"
+      "bookid": "1",
+      "user": "useremail"
     },
     {
       "id": 6,
-      "booknumber": "46",
-      "comment": "sdgsgsdgfd"
+      "bookid": "1",
+      "user": "useremail"
     },
     {
       "id": 8,
-      "booknumber": "45",
-      "comment": "sfdbsdvb"
+      "bookid": "1",
+      "user": "useremail"
     },
     {
-      "id": 10,
-      "booknumber": "48",
-      "comment": ""
+      "id": 9,
+      "bookid": "1",
+      "user": "useremail"
     }
+
+  ],
+}
   ],
   "profile": {
     "name": "typicode"

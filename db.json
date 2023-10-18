@@ -100,6 +100,7 @@
       "type": "Science"
     },
     {
+
       "id": 10,
       "img": "/assets/images/A Short History of Nearly Everything.jpg",
       "title": "A Short History of Nearly Everything",
@@ -590,6 +591,7 @@
       "long_description": "The Haunting of Hajji Hotak and Other Stories is a collection of short stories that explore the lives of Afghans living in exile. The stories are both heartbreaking and hopeful, and they offer a glimpse into the challenges and triumphs of those who have been forced to leave their home country. The Haunting of Hajji Hotak and Other Stories is a must-read for anyone interested in Afghan literature and the experiences of refugees."
     }
   ],
+  
   "users": [
     {
       "firstName": "ayoub",

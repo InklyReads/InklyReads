@@ -1,3 +1,47 @@
+document.addEventListener("DOMContentLoaded", function () {
+    const urlParams = new URLSearchParams(window.location.search);
+    const searchInput = urlParams.get("searchInput");
+    fetch("http://localhost:3000/books")
+      .then((response) => response.json())
+      .then((data) => {
+        const books = data.filter((book) => book.title.includes(searchInput));
+        let container = document.querySelector("#product");
+        if (books && books.length > 0) {
+          const book = books[0];
+          container.innerHTML =` 
+            <div class="product_images"><img src="${book.img}" alt=""></div>
+            <div class="product_details">
+                <div class="back">
+                   <h6>Back to <a href="/html/books.html">Books</a></h6>
+                </div>
+    
+                <h2>${book.title}</h2>
+    
+                <div class="about">
+                    <p>Author : <span>${book.author}</span></p>
+                    <p>Number of pages: <span>${book.pages}</span></p>   
+                    <p>Year : <span>${book.year}</span></p>
+                </div>
+    
+                <p>${book.long_description}</p>
+                <ul>
+                    <li>type : ${book.type}</li>
+                </ul>
+                
+                <div class="cta">
+                <button type="button" class="btn btn-light">Get the book</button>
+                    <div class="btn btn_outline_secondary">
+                    <button type="button" class="btn btn-danger" onclick = wishlist(${book.id})>Add to wishlist</button>
+                </div>
+            </div>`;
+        } else {
+          container.innerHTML = "<h2>The book does not exist</h2>";
+        }
+      });
+  });
+
+
+
 document.addEventListener("DOMContentLoaded", () => {
   let urlParams = new URLSearchParams(window.location.search);
   let bookId = urlParams.get("id");
@@ -93,7 +137,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <span class="be-comment-time"><i class="fa fa-clock-o"></i></span>
     
             <p class="be-comment-text" contenteditable="true">${d.comment}</p>
-            <button class = "btn btn-primary delete" onclick = deletecomment(${d.id})>delete</button>
+            <button class = "btn btn-danger delete" onclick = deletecomment(${d.id})>delete</button>
             </div>
             `;
         cont.prepend(comdiv);
@@ -148,7 +192,7 @@ function wishlist(bookid){
 
 const jsPDF = window.jspdf;
 function getthebook(){
-    console.log("sssssssssss");
+    // console.log("sssssssssss");
     // Create a new instance of jsPDF
     // const pdf = jsPDF;
 

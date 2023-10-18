@@ -1,17 +1,17 @@
-document.addEventListener("DOMContentLoaded", () =>{
-    
-    let urlParams = new URLSearchParams(window.location.search);
-    let bookId = urlParams.get('id');
-    console.log(bookId);
+document.addEventListener("DOMContentLoaded", () => {
+  let urlParams = new URLSearchParams(window.location.search);
+  let bookId = urlParams.get("id");
+  console.log(bookId);
 
-    fetch("http://localhost:3000/books")
-    .then(response => response.json())
-    .then(data => {
-        let thebook = data[bookId - 1];
-        console.log(thebook);
-        let container = document.querySelector("#product");
-        // div.classList = "details-container";
-        container.innerHTML = `
+  fetch("http://localhost:3000/books")
+    .then((response) => response.json())
+    .then((data) => {
+      let thebook = data[bookId - 1];
+      console.log(thebook);
+      console.log(thebook);
+      let container = document.querySelector("#product");
+      // div.classList = "details-container";
+      container.innerHTML = `
         <div class="product_images"><img src="${thebook.img}" alt=""></div>
     <div class="product_details">
         <div class="back">
@@ -37,16 +37,16 @@ document.addEventListener("DOMContentLoaded", () =>{
             <button type="button" class="btn btn-danger" onclick = wishlist(${thebook.id})>Add to wishlist</button>
         </div>
     </div>`;
-                // container.appendChild(container);
+      // container.appendChild(container);
     });
 
-    let button = document.querySelector("#comm-sub");
-    button.addEventListener("click", () =>{
-        let comment = document.querySelector("#com-text").value;
-        let comdiv = document.createElement("div");
-        let cont = document.querySelector(".be-comment-block");
-        comdiv.classList = "be-comment";
-        comdiv.innerHTML = `
+  let button = document.querySelector("#comm-sub");
+  button.addEventListener("click", () => {
+    let comment = document.querySelector("#com-text").value;
+    let comdiv = document.createElement("div");
+    let cont = document.querySelector(".be-comment-block");
+    comdiv.classList = "be-comment";
+    comdiv.innerHTML = `
         <div class="be-img-comment">	
         <a href="blog-detail-2.html">
             <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="" class="be-ava-comment">
@@ -56,33 +56,32 @@ document.addEventListener("DOMContentLoaded", () =>{
             <span class="be-comment-name"><a href="blog-detail-2.html">User</a></span>
         <p class="be-comment-text">${comment}</p>
         </div>`;
-        cont.prepend(comdiv);
+    cont.prepend(comdiv);
 
-        fetch(`http://localhost:3000/comments`, {
-            headers: {"Content-type": "application/json; charset=UTF-8"},
-                // Adding method type
-                method: "POST",
-                // Adding body or contents to send
-                body: JSON.stringify({
-                    id : "",
-                    booknumber : `${bookId}`,
-                    comment : `${comment}`,
-                    useremail: "from--section",
-                    username: "fromsession"
-                }),
-        })
-        
+    fetch(`http://localhost:3000/comments`, {
+      headers: { "Content-type": "application/json; charset=UTF-8" },
+      // Adding method type
+      method: "POST",
+      // Adding body or contents to send
+      body: JSON.stringify({
+        id: "",
+        booknumber: `${bookId}`,
+        comment: `${comment}`,
+        useremail: "from--section",
+        username: "fromsession",
+      }),
     });
+  });
 
-    fetch("http://localhost:3000/comments")
-    .then(response => response.json())
-    .then(data => {
-        let filtered = data.filter((comment) => comment.booknumber == bookId);
-        filtered.map((d) => {
-            let comdiv = document.createElement("div");
-             let cont = document.querySelector(".be-comment-block");
-            comdiv.classList = "comments-container";
-            comdiv.innerHTML = `
+  fetch("http://localhost:3000/comments")
+    .then((response) => response.json())
+    .then((data) => {
+      let filtered = data.filter((comment) => comment.booknumber == bookId);
+      filtered.map((d) => {
+        let comdiv = document.createElement("div");
+        let cont = document.querySelector(".be-comment-block");
+        comdiv.classList = "comments-container";
+        comdiv.innerHTML = `
             <div class="be-img-comment">	
             <a href="blog-detail-2.html">
                 <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="" class="be-ava-comment">
@@ -98,22 +97,23 @@ document.addEventListener("DOMContentLoaded", () =>{
             </div>
             `;
         cont.prepend(comdiv);
-        });
-    })
-    // Use the book ID to fetch book details (you can replace this with your logic)
-    // console.log(bookId);
+      });
+    });
+  // Use the book ID to fetch book details (you can replace this with your logic)
+  // console.log(bookId);
 });
 
-function deletecomment(c){
-    console.log(c);
-        fetch(`http://localhost:3000/comments/${c}`, {
-        method: 'DELETE',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-      })
-      console.log(c);
+function deletecomment(c) {
+  console.log(c);
+  fetch(`http://localhost:3000/comments/${c}`, {
+    method: "DELETE",
+    headers: {
+      "Content-Type": "application/json",
+    },
+  });
+  console.log(c);
 }
+
 
 function wishlist(bookid){
     // -------------------------> get the user from the session
@@ -158,3 +158,6 @@ function getthebook(){
     // Save the PDF with a specific name
     // pdf.save('/assets/book.pdf');
 }
+
+function editcomment(c) {}
+

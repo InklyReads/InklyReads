@@ -309,7 +309,7 @@
 
 #divMove {
   top: 0;
-  left: 110px;
+  left: 0px;
   position: absolute;
   width: 110px;
   height: 100%;
@@ -361,11 +361,11 @@ span {
   cursor: pointer;
 }
 
-#loginForm {
+#registerForm {
   left: -400px;
 }
 
-#registerForm {
+#loginForm {
   left: 50px;
 }
 

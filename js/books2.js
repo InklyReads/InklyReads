@@ -19,7 +19,7 @@ fetch("http://localhost:3000/books")
 
             const image = document.createElement("img");
             image.src = `${book.img}`;
-            image.style.width = "296px" ;
+            image.style.width = "278px" ;
             image.style.height = "398px" ;
 
             const title = document.createElement("h2");
@@ -85,7 +85,7 @@ fetch("http://localhost:3000/books")
     
                 const image = document.createElement("img");
                 image.src = `${book.img}`;
-                image.style.width = "296px" ;
+                image.style.width = "278px" ;
                 image.style.height = "398px" ;
     
                 const title = document.createElement("h2");
@@ -150,7 +150,7 @@ fetch("http://localhost:3000/books")
     
                 const image = document.createElement("img");
                 image.src = `${book.img}`;
-                image.style.width = "296px" ;
+                image.style.width = "278px" ;
                 image.style.height = "398px" ;
     
                 const title = document.createElement("h2");
@@ -216,7 +216,7 @@ fetch("http://localhost:3000/books")
     
                 const image = document.createElement("img");
                 image.src = `${book.img}`;
-                image.style.width = "296px";
+                image.style.width = "278px";
                 image.style.height = "398px";
     
                 const title = document.createElement("h2");
@@ -267,14 +267,22 @@ let ecobtn = document.querySelector(".eco");
 let stobtn = document.querySelector(".sto");
 
 sicbtn.addEventListener(`click`, () =>{
-    window.location.href = ``;
+    console.log("click");
+    let booksid = "Science";
+    window.location.href = `/html/books.html?booksid=${booksid}`;
 })
-sicbtn.addEventListener(`click`, () =>{
-    window.location.href = ``;
+hisbtn.addEventListener(`click`, () =>{
+    console.log("click");
+    let booksid = "History";
+    window.location.href = `/html/books.html?booksid=${booksid}`;
 })
-sicbtn.addEventListener(`click`, () =>{
-    window.location.href = ``;
+ecobtn.addEventListener(`click`, () =>{
+    console.log("click");
+    let booksid = "Economic";
+    window.location.href = `/html/books.html?booksid=${booksid}`;
 })
-sicbtn.addEventListener(`click`, () =>{
-    window.location.href = ``;
+stobtn.addEventListener(`click`, () =>{
+    console.log("click");
+    let booksid = "Story";
+    window.location.href = `/html/books.html?booksid=${booksid}`;
 })

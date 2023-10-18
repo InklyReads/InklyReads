@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="cta">
         <button type="button" class="btn btn-light">Get the book</button>
             <div class="btn btn_outline_secondary">
-            <button type="button" class="btn btn-danger">Add to wishlist</button>
+            <button type="button" class="btn btn-danger" onclick = wishlist(${thebook.id})>Add to wishlist</button>
         </div>
     </div>`;
       // container.appendChild(container);
@@ -92,9 +92,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 <span class="be-comment-name"><a href="blog-detail-2.html">User</a></span>
                 <span class="be-comment-time"><i class="fa fa-clock-o"></i></span>
     
-            <p class="be-comment-text">${d.comment}</p>
-            <button class = "delete" onclick = deletecomment(${d.id})>delete</button>
-            <button class = "update" onclick = editcomment(${d.id})>edit</button>
+            <p class="be-comment-text" contenteditable="true">${d.comment}</p>
+            <button class = "btn btn-primary delete" onclick = deletecomment(${d.id})>delete</button>
             </div>
             `;
         cont.prepend(comdiv);
@@ -114,4 +113,51 @@ function deletecomment(c) {
   });
   console.log(c);
 }
+
+
+function wishlist(bookid){
+    // -------------------------> get the user from the session
+    let booklist = [];
+    let wishuser;
+    fetch("http://localhost:3000/users")
+    .then(response => response.json())
+    .then(data => {
+        data.map((x) => {
+            if (x == window.sessionStorage.getItem(user.id))
+            {
+                wishuser = user;
+                booklist = user.wishlist
+            }
+        })
+    });
+    let nwebooklist = booklist.push(bookid);
+
+
+    fetch(`http://localhost:3000/wishlist`, {
+            headers: {"Content-type": "application/json; charset=UTF-8"},
+                // Adding method type
+                method: "PUT",
+                // Adding body or contents to send
+                body: JSON.stringify({
+                    id : `${wishuser}`,
+                    bookid : `${nwebooklist}`,
+                    user : `${window.sessionStorage.getItem(user.email)}`
+                }),
+        })
+}
+
+const jsPDF = window.jspdf;
+function getthebook(){
+    console.log("sssssssssss");
+    // Create a new instance of jsPDF
+    // const pdf = jsPDF;
+
+    // Add content to the PDF
+    // pdf.text('Hello, this is your PDF!', 10, 10);
+
+    // Save the PDF with a specific name
+    // pdf.save('/assets/book.pdf');
+}
+
 function editcomment(c) {}
+

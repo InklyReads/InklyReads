@@ -30,24 +30,18 @@ menuToggle.addEventListener("click", () => {
 // navbar end
 
 // saerch start
-// let searchForm = document.getElementById("searchForm");
-// searchForm.addEventListener("submit", (e) => {
-//   e.preventDefault();
-//   let searchInput = document.querySelector("input[name = search]").value;
-//   fetch("http://localhost:3000/books")
-//     .then((response) => {
-//       return response.json();
-//     })
-//     .then((data) => {
-//       data.filter((book) => {
-//         // book.title === searchInput ? book.id : "";
-//         console.log(book.title === searchInput ? book.id : "");
-//         // let targetbook = book.id;
-//         // return targetbook;
-//       });
-//       // Window.location.href = `/html/details.html?bookId=${targetbook}`;
-//     });
-// });
+// sent search value into details.html start
+document.addEventListener("DOMContentLoaded", function () {
+    const searchForm = document.getElementById("searchForm");
+    const searchInput = document.getElementById("searchInput");
+    searchForm.addEventListener("submit", function (event) {
+      event.preventDefault(); 
+      const searchTerm = searchInput.value;
+      const url = `html/details.html?searchInput=${encodeURIComponent(searchTerm)}`;
+      window.location.href = url;
+    });
+  });
+  // sent search value into details.html end
 // saerch End
 
 // hero section start
@@ -296,3 +290,4 @@ function filterCategory(id) {
 }
 
 //catigories section end
+

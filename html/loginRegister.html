@@ -266,7 +266,7 @@
       // Initialize Firebase end
 
       // Register User start
-      window.RegisterUser = (event) => {
+      let RegisterUser = (event) => {
         event.preventDefault();
 
         // giv me all values for registerForm start
@@ -281,8 +281,8 @@
         let agree = document.getElementById("registerForm").elements[5].value;
         // giv me all values for registerForm end
 
-        createUserWithEmailAndPassword(auth, email, password).then(
-          (credentials) => {
+        createUserWithEmailAndPassword(auth, email, password)
+          .then((credentials) => {
             set(ref(db, "UsersAuthList/" + credentials.user.uid), {
               firstName: firstName,
               lastName: lastName,
@@ -291,8 +291,46 @@
               address: address,
               agree: agree,
             });
-          }
-        );
+            loginToggle();
+            function getInformation() {
+              let registerForm = document.getElementById("registerForm");
+              registerForm.addEventListener("submit", (e) => {
+                e.preventDefault();
+                let firstName =
+                  document.getElementById("registerForm").elements[0].value;
+                let lastName =
+                  document.getElementById("registerForm").elements[1].value;
+                let email =
+                  document.getElementById("registerForm").elements[2].value;
+                let password =
+                  document.getElementById("registerForm").elements[3].value;
+                let address =
+                  document.getElementById("registerForm").elements[4].value;
+                let agree =
+                  document.getElementById("registerForm").elements[5].value;
+                fetch("http://localhost:3000/users", {
+                  method: "POST",
+                  headers: {
+                    "Content-type": "application/json",
+                  },
+                  body: JSON.stringify({
+                    firstName: firstName,
+                    lastName: lastName,
+                    userName: `${firstName} ${lastName}`,
+                    email: email,
+                    password: password,
+                    address: address,
+                    agree: agree,
+                  }),
+                });
+              });
+            }
+            getInformation();
+          })
+          .catch((error) => {
+            console.log(error.code);
+            console.log(error.message);
+          });
       };
       registerForm.addEventListener("submit", RegisterUser);
       // Register User end

@@ -29,29 +29,26 @@ menuToggle.addEventListener("click", () => {
 });
 // navbar end
 
-// // saerch start
-
 // saerch start
-let searchForm = document.getElementById("searchForm");
-searchForm.addEventListener("submit", (e) => {
-  e.preventDefault();
-  let searchInput = document.querySelector("input[name = search]").value;
-  fetch("http://localhost:3000/books")
-    .then((response) => {
-      return response.json();
-    })
-    .then((data) => {
-      data.filter((book) => {
-        // book.title === searchInput ? book.id : "";
-        console.log(book.title === searchInput ? book.id : "");
-        // let targetbook = book.id;
-        // return targetbook;
-      });
-      // Window.location.href = `/html/details.html?bookId=${targetbook}`;
-    });
-});
+// let searchForm = document.getElementById("searchForm");
+// searchForm.addEventListener("submit", (e) => {
+//   e.preventDefault();
+//   let searchInput = document.querySelector("input[name = search]").value;
+//   fetch("http://localhost:3000/books")
+//     .then((response) => {
+//       return response.json();
+//     })
+//     .then((data) => {
+//       data.filter((book) => {
+//         // book.title === searchInput ? book.id : "";
+//         console.log(book.title === searchInput ? book.id : "");
+//         // let targetbook = book.id;
+//         // return targetbook;
+//       });
+//       // Window.location.href = `/html/details.html?bookId=${targetbook}`;
+//     });
+// });
 // saerch End
-// // saerch End
 
 // hero section start
 const myslide = document.querySelectorAll(".myslide"),
@@ -96,7 +93,6 @@ function slidefun(n) {
   myslide[counter - 1].style.display = "block";
   dot[counter - 1].className += " active";
 }
-
 // hero section end
 
 // top reted start
@@ -152,7 +148,6 @@ function getStarRating(rating) {
   }
   return starIcons;
 }
-
 // top rated section end
 
 // new section start home

@@ -251,7 +251,7 @@
         "year": 1954,
         "pages": 1178,
         "rating": 4.5,
-        "type": "Fiction"
+        "type": "Story"
       },
       {
         "id": 24,
@@ -262,7 +262,7 @@
         "year": 1987,
         "pages": 321,
         "rating": 4.5,
-        "type": "Fiction"
+        "type": "Economic"
       },
       {
         "id": 25,
@@ -273,7 +273,7 @@
         "year": 1979,
         "pages": 224,
         "rating": 4.5,
-        "type": "Science Fiction"
+        "type": "Science"
       },
       {
         "id": 26,
@@ -306,7 +306,7 @@
         "year": 1967,
         "pages": 417,
         "rating": 4.5,
-        "type": "Fiction"
+        "type": "History"
       },
       {
         "id": 29,
@@ -317,7 +317,7 @@
         "year": 2006,
         "pages": 396,
         "rating": 4.5,
-        "type": "Science Fiction"
+        "type": "Science"
       },
       {
         "id": 30,
@@ -350,7 +350,7 @@
         "year": 1960,
         "pages": 281,
         "rating": 4.6,
-        "type": "Fiction"
+        "type": "Economic"
       },
       
       {
@@ -360,7 +360,7 @@
         "author": "V.E. Schwab",
         "year": 2020,
         "pages": 448,
-        "type": "Fiction",
+        "type": "Economic",
         "rating": 4.5,
         "long_description": "The Hobbit is a fantasy novel by J.R.R. Tolkien. It follows the journey of Bilbo Baggins, a hobbit who is reluctantly recruited to assist a group of dwarves in their quest to reclaim their homeland from the dragon Smaug."
       },
@@ -372,7 +372,7 @@
         "author": "Ma Jian",
         "year": 2023,
         "pages": 480,
-        "type": "Fiction",
+        "type": "Story",
         "rating": 4.5
       },
       {
@@ -383,7 +383,7 @@
         "author": "Ruth Ozeki",
         "year": 2023,
         "pages": 384,
-        "type": "Fiction",
+        "type": "History",
         "rating": 4.5
       },
       {
@@ -394,7 +394,7 @@
         "author": "Maggie O'Farrell",
         "year": 2023,
         "pages": 320,
-        "type": "Fiction",
+        "type": "History",
         "rating": 4.5
       },
       {
@@ -405,7 +405,7 @@
         "author": "Bonnie Garmus",
         "year": 2023,
         "pages": 368,
-        "type": "Fiction",
+        "type": "Story",
         "rating": 4.5
       },
       {
@@ -416,7 +416,7 @@
         "author": "Jennifer Egan",
         "year": 2023,
         "pages": 432,
-        "type": "Fiction",
+        "type": "Story",
         "rating": 4.5
       },
       {
@@ -427,7 +427,7 @@
         "author": "Elizabeth Kolbert",
         "year": 2014,
         "pages": 319,
-        "type": "Non-Fiction",
+        "type": "History",
         "rating": 4.5
       },
       {
@@ -437,7 +437,7 @@
         "author": "V.E. Schwab",
         "year": 2020,
         "pages": 448,
-        "type": "Fiction",
+        "type": "Economic",
         "rating": 5,
         "long_description": "A young woman makes a deal with the devil to live forever, but at a price: no one will ever remember her. She must find meaning in her life despite her curse, and she must learn to love herself even when no one else does."
       },
@@ -448,7 +448,7 @@
         "author": "T.J. Klune",
         "year": 2020,
         "pages": 394,
-        "type": "Fiction",
+        "type": "Science",
         "rating": 5,
         "long_description": "A social worker is sent to investigate a magical orphanage for children with extraordinary abilities. He quickly falls in love with the children and the orphanage's director, and he must learn to accept the magic in his life."
       },
@@ -459,7 +459,7 @@
         "author": "Becky Chambers",
         "year": 2020,
         "pages": 160,
-        "type": "Fiction",
+        "type": "Science",
         "rating": 5,
         "long_description": "A tea monk travels from town to town, offering tea and conversation to anyone who needs it. One day, she meets a robot who is on a journey to find the meaning of life. Together, they travel through a world that is slowly healing from a devastating war."
       },
@@ -470,7 +470,7 @@
         "author": "Silvia Moreno-Garcia",
         "year": 2020,
         "pages": 304,
-        "type": "Fiction",
+        "type": "Science",
         "rating": 5,
         "long_description": "A young woman is sent to investigate her cousin's mysterious illness at her ancestral home. She soon discovers that the house is haunted by the ghosts of the family's past, and she must uncover the dark secrets of the Doyle family in order to save her cousin."
       },
@@ -481,7 +481,7 @@
         "author": "Matt Haig",
         "year": 2020,
         "pages": 304,
-        "type": "Fiction",
+        "type": "Science",
         "rating": 5,
         "long_description": "A woman who attempts suicide wakes up in a magical library where she can choose to live any life she wants. She must decide whether she wants to keep living her current life, or if she wants to start over and live a different one."
       },
@@ -492,7 +492,7 @@
         "author": "Joshua Cohen",
         "year": 2022,
         "pages": 336,
-        "type": "Fiction",
+        "type": "Economic",
         "rating": 4.5,
         "prize": "1",
         "description": "The Netanyahus is a satirical novel about the Netanyahu family, a prominent Israeli political family. The novel is told from the perspective of Ruben Blum, a fictional American Jewish writer who is invited to Israel to write a biography of Benzion Netanyahu, the father of Israeli Prime Minister Benjamin Netanyahu. Blum arrives in Israel to find that Benzion is not the man he expected. Benzion is a brilliant but eccentric scholar who is more interested in his own ideas than in the truth. Blum also finds himself drawn to Benzion's wife, Cela, a beautiful and mysterious woman."
@@ -505,7 +505,7 @@
         "translator": "Daisy Rockwell",
         "year": 2022,
         "pages": 240,
-        "type": "Fiction",
+        "type": "Economic",
         "rating": 4.5,
         "prize": "1",
         "long_description": "An elderly woman named Ma, who has always been the anchor for her family, is suddenly overcome with a strange restlessness. She refuses to leave her bed and insists on traveling alone to Pakistan. Her son, Pran, is forced to confront the secrets of his childhood and the choices he has made as he tries to understand his mother's decision in this poignant and moving novel."
@@ -517,7 +517,7 @@
         "author": "Tess Gunty",
         "year": 2022,
         "pages": 384,
-        "type": "Fiction",
+        "type": "Economic",
         "rating": 4.5,
         "prize": "1",
         "long_description": "Set in working-class New England, The Rabbit Hutch tells the story of a group of young people living in a low-income housing complex. The novel follows their struggles and triumphs as they navigate the challenges of poverty, violence, and addiction. The Rabbit Hutch is a powerful and moving novel that gives voice to the voiceless and offers a glimpse into the lives of those who are often overlooked."
@@ -529,7 +529,7 @@
         "author": "Sarah Thankam Mathews",
         "year": 2022,
         "pages": 288,
-        "type": "Non-Fiction",
+        "type": "Story",
         "rating": 4.5,
         "prize": "1",
         "long_description": "All This Could Be Different is a collection of essays that explore the intersection of race, gender, and class in America. The essays are personal and insightful, and they offer a unique perspective on the challenges and opportunities facing women of color in today's society. All This Could Be Different is a must-read for anyone interested in social justice and the experiences of women of color."
@@ -541,7 +541,7 @@
         "author": "Jamil Jan Kochai",
         "year": 2022,
         "pages": 256,
-        "type": "Fiction",
+        "type": "Story",
         "rating": 4.5,
         "prize": "1",
         "long_description": "The Haunting of Hajji Hotak and Other Stories is a collection of short stories that explore the lives of Afghans living in exile. The stories are both heartbreaking and hopeful, and they offer a glimpse into the challenges and triumphs of those who have been forced to leave their home country. The Haunting of Hajji Hotak and Other Stories is a must-read for anyone interested in Afghan literature and the experiences of refugees."

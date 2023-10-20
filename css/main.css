@@ -25,6 +25,10 @@ nav {
   z-index: 1000;
 }
 
+.logout {
+  color: #000;
+  font-weight: 500;
+}
 nav.open {
   background-color: #ccc;
 }
@@ -199,7 +203,7 @@ nav ul li a:hover::before {
 
 /* responsive */
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
   .menuToggle {
     display: block;
     font-size: 2em;
@@ -499,7 +503,7 @@ nav form {
 
 section.toprated {
   margin-top: 220px;
-  margin-bottom: 220px;
+  margin-bottom: 250px;
 }
 
 .carousel-container {
@@ -549,6 +553,11 @@ h1.Catigoriseh1 {
   grid-area: e;
 }
 
+li.cards_item {
+  width: 270px !important;
+  height: 493px;
+}
+
 @media (max-width: 900px) {
   .cards {
     grid-template-columns: repeat(2, 34%);
@@ -562,7 +571,15 @@ h1.Catigoriseh1 {
   }
 }
 
-@media (max-width: 665px) {
+@media (max-width: 671px) {
+  section.toprated {
+    margin-top: 220px;
+    margin-bottom: 750px;
+  }
+  li.cards_item {
+    width: 442px !important;
+    height: 493px;
+  }
   .cards {
     grid-template-columns: repeat(1, 79%);
     grid-template-rows: repeat(5, 20%);
@@ -586,14 +603,8 @@ h1.Catigoriseh1 {
 .cards_item {
   flex: 0 0 auto;
   background-color: #ffffff;
-  border-radius: 10px;
   border: 2px solid transparent; /* Add a transparent border initially */
   transition: border-color 0.3s ease; /* Add transition for border color change */
-}
-
-li.cards_item {
-  width: 270px !important;
-  height: 493px;
 }
 
 .card .card_title {
@@ -1120,6 +1131,7 @@ h1 {
 
 div.description {
   padding: 5%;
+  margin-bottom: 7%;
 }
 
 .cover img {
@@ -1267,7 +1279,10 @@ span.author {
   margin-bottom: 40px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 666px) {
+  div#aboutus {
+    margin-top: 200%;
+  }
   .about {
     background-size: 100%; /* Adjust background size for smaller screens */
   }
